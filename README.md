@@ -43,12 +43,12 @@ flowchart TD
     accTitle: Floor and headroom checks
     accDescr: Replace the model with fixed policies and score the full system. If a high score survives, report that floor. Otherwise compare the best shared control setting with the best settings chosen per unit. Any apparent per-unit advantage still needs held-out evaluation.
 
-    A["Replace the model<br/>and re-score"] --> B{"High score<br/>survives?"}
-    B -->|Yes| C["Report the floor"]
-    B -->|No| D["Enumerate the declared<br/>control settings"]
-    D --> E["Best per-unit settings<br/>minus best shared setting"]
-    E --> F["Compare with a<br/>shuffled reference"]
-    F --> G["Evaluate any adaptive<br/>policy on held-out data"]
+    A["Replace model<br/>and rescore"] --> B{"High score<br/>survives?"}
+    B -->|Yes| C["Report floor"]
+    B -->|No| D["Enumerate<br/>controls"]
+    D --> E["Per-unit best<br/>minus shared best"]
+    E --> F["Compare with<br/>shuffled reference"]
+    F --> G["Test adaptation<br/>on held-out data"]
 ```
 
 The first check asks how much of a system's score survives a model substitution. If a scaffold
