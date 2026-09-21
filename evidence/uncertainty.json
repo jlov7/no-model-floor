@@ -1,0 +1,161 @@
+{
+  "bootstrap_rounds": 10000,
+  "estimand": "Accuracy of a fixed policy on this 18-cell scenario set, under the model's own sampling distribution at temperature 0.7. Cells are the resampling unit, so the interval covers uncertainty from which cells happen to be in the set and from model stochasticity. It does not license generalisation to other tasks, scenario distributions or models.",
+  "protocol_version": "uncertainty-1.0",
+  "surfaces": {
+    "confirmatory": {
+      "gemma4:12b-it-q4_K_M": {
+        "accuracy_bps": 9444,
+        "cell_clustered_95ci_bps": [
+          8333,
+          10000
+        ],
+        "paired_vs_best_fixed": {
+          "best_fixed_only_correct": 0,
+          "both_correct": 170,
+          "decisions_differ": 0,
+          "derived_only_correct": 0,
+          "draws": 180,
+          "neither_correct": 10
+        }
+      },
+      "qwen/qwen3.8-27b": {
+        "accuracy_bps": 9500,
+        "cell_clustered_95ci_bps": [
+          8500,
+          10000
+        ],
+        "paired_vs_best_fixed": {
+          "best_fixed_only_correct": 0,
+          "both_correct": 171,
+          "decisions_differ": 0,
+          "derived_only_correct": 0,
+          "draws": 180,
+          "neither_correct": 9
+        }
+      },
+      "qwen3.5:2b": {
+        "accuracy_bps": 9556,
+        "cell_clustered_95ci_bps": [
+          8667,
+          10000
+        ],
+        "paired_vs_best_fixed": {
+          "best_fixed_only_correct": 0,
+          "both_correct": 172,
+          "decisions_differ": 0,
+          "derived_only_correct": 0,
+          "draws": 180,
+          "neither_correct": 8
+        }
+      },
+      "qwen3.5:4b": {
+        "accuracy_bps": 9500,
+        "cell_clustered_95ci_bps": [
+          8500,
+          10000
+        ],
+        "paired_vs_best_fixed": {
+          "best_fixed_only_correct": 0,
+          "both_correct": 171,
+          "decisions_differ": 0,
+          "derived_only_correct": 0,
+          "draws": 180,
+          "neither_correct": 9
+        }
+      },
+      "qwen3.5:9b": {
+        "accuracy_bps": 9944,
+        "cell_clustered_95ci_bps": [
+          9833,
+          10000
+        ],
+        "paired_vs_best_fixed": {
+          "best_fixed_only_correct": 0,
+          "both_correct": 179,
+          "decisions_differ": 0,
+          "derived_only_correct": 0,
+          "draws": 180,
+          "neither_correct": 1
+        }
+      }
+    },
+    "exploratory": {
+      "gemma4:12b-it-q4_K_M": {
+        "accuracy_bps": 10000,
+        "cell_clustered_95ci_bps": [
+          10000,
+          10000
+        ],
+        "paired_vs_best_fixed": {
+          "best_fixed_only_correct": 0,
+          "both_correct": 180,
+          "decisions_differ": 0,
+          "derived_only_correct": 0,
+          "draws": 180,
+          "neither_correct": 0
+        }
+      },
+      "qwen/qwen3.8-27b": {
+        "accuracy_bps": 9944,
+        "cell_clustered_95ci_bps": [
+          9833,
+          10000
+        ],
+        "paired_vs_best_fixed": {
+          "best_fixed_only_correct": 0,
+          "both_correct": 179,
+          "decisions_differ": 0,
+          "derived_only_correct": 0,
+          "draws": 180,
+          "neither_correct": 1
+        }
+      },
+      "qwen3.5:2b": {
+        "accuracy_bps": 9888,
+        "cell_clustered_95ci_bps": [
+          9661,
+          10000
+        ],
+        "paired_vs_best_fixed": {
+          "best_fixed_only_correct": 0,
+          "both_correct": 177,
+          "decisions_differ": 0,
+          "derived_only_correct": 0,
+          "draws": 179,
+          "neither_correct": 2
+        }
+      },
+      "qwen3.5:4b": {
+        "accuracy_bps": 10000,
+        "cell_clustered_95ci_bps": [
+          10000,
+          10000
+        ],
+        "paired_vs_best_fixed": {
+          "best_fixed_only_correct": 0,
+          "both_correct": 180,
+          "decisions_differ": 0,
+          "derived_only_correct": 0,
+          "draws": 180,
+          "neither_correct": 0
+        }
+      },
+      "qwen3.5:9b": {
+        "accuracy_bps": 10000,
+        "cell_clustered_95ci_bps": [
+          10000,
+          10000
+        ],
+        "paired_vs_best_fixed": {
+          "best_fixed_only_correct": 0,
+          "both_correct": 180,
+          "decisions_differ": 0,
+          "derived_only_correct": 0,
+          "draws": 180,
+          "neither_correct": 0
+        }
+      }
+    }
+  }
+}

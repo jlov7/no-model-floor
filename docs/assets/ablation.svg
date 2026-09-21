@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400"
+     role="img" aria-label="Bar chart: for all five models, deriving safety rules from observed
+     failures scores identically to switching every rule on without using any evidence.">
+  <style>
+    .bg { fill: #F4F6F7; }
+    .bar.ref { fill: #9FB0B5; }
+    .bar.eq { fill: #0B6A72; }
+    .grid { stroke: #D2DADD; stroke-width: 1; }
+    .tie { stroke: #0B6A72; stroke-width: 1.2; fill: none; }
+    text { font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .axis, .val { font-size: 10px; fill: #526168; }
+    .axis { text-anchor: end; }
+    .val { text-anchor: middle; }
+    .model { font-size: 11px; fill: #14191C; text-anchor: middle; }
+    .params { font-size: 9.5px; fill: #526168; text-anchor: middle; }
+    .tielab { font-size: 9px; fill: #0B6A72; text-anchor: middle; letter-spacing: .06em; }
+    .legend { font-size: 10.5px; fill: #47555C; }
+    .title { font-size: 13px; fill: #14191C; font-weight: 600; }
+    .sub { font-size: 11px; fill: #47555C; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0E1316; }
+      .bar.ref { fill: #46565C; }
+      .bar.eq { fill: #4FB8C2; }
+      .grid { stroke: #2A3439; }
+      .tie { stroke: #4FB8C2; }
+      .axis, .val, .params { fill: #7C8C93; }
+      .model, .title { fill: #E8EDEF; }
+      .tielab { fill: #4FB8C2; }
+      .legend, .sub { fill: #A9B7BD; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      animate { display: none; }
+      .val, .tie, .tielab { opacity: 1 !important; }
+    }
+  </style>
+  <rect class="bg" x="0" y="0" width="900" height="400"/>
+  <text class="title" x="58" y="26">Deriving the safety rules never beat switching them all on</text>
+  <text class="sub" x="58" y="44">Task success in basis points. 18 scenarios, 10 draws each at temperature 0.7.</text>
+  <text class="sub" x="58" y="59">Dashed line: a policy that always refuses, which needs no model at all.</text>
+    <line class="grid" x1="58" y1="84.0" x2="880" y2="84.0"/>
+  <text class="axis" x="49" y="88.0">10000</text>
+  <line class="grid" x1="58" y1="137.8" x2="880" y2="137.8" stroke-dasharray="3 4"/>
+  <text class="axis" x="49" y="141.8">7778</text>
+  <line class="grid" x1="58" y1="326.0" x2="880" y2="326.0"/>
+  <text class="axis" x="49" y="330.0">0</text>
+  <rect class="bar ref" x="79.3" y="166.5" width="25.7" height="159.5" rx="2"><animate attributeName="height" from="0" to="159.5" dur="0.65s" begin="0.0s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="166.5" dur="0.65s" begin="0.0s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="92.2" y="161.5" opacity="0">6592<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.6s" fill="freeze"/></text>
+  <rect class="bar ref" x="111.4" y="136.7" width="25.7" height="189.3" rx="2"><animate attributeName="height" from="0" to="189.3" dur="0.65s" begin="0.05s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="136.7" dur="0.65s" begin="0.05s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="124.2" y="131.7" opacity="0">7821<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.65s" fill="freeze"/></text>
+  <rect class="bar eq" x="143.4" y="86.7" width="25.7" height="239.3" rx="2"><animate attributeName="height" from="0" to="239.3" dur="0.65s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="86.7" dur="0.65s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="156.2" y="81.7" opacity="0">9888<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.7s" fill="freeze"/></text>
+  <rect class="bar eq" x="175.4" y="86.7" width="25.7" height="239.3" rx="2"><animate attributeName="height" from="0" to="239.3" dur="0.65s" begin="0.15s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="86.7" dur="0.65s" begin="0.15s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="188.2" y="81.7" opacity="0">9888<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.75s" fill="freeze"/></text>
+  <path class="tie" d="M143.4 68 L143.4 62 L201.1 62 L201.1 68" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.4s" fill="freeze"/></path>
+  <text class="tielab" x="172.2" y="56" opacity="0">identical<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.5s" fill="freeze"/></text>
+  <text class="model" x="140.2" y="346">qwen3.5:2b</text>
+  <text class="params" x="140.2" y="361">2.3B</text>
+  <rect class="bar ref" x="243.7" y="260.1" width="25.7" height="65.9" rx="2"><animate attributeName="height" from="0" to="65.9" dur="0.65s" begin="0.09s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="260.1" dur="0.65s" begin="0.09s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="256.6" y="255.1" opacity="0">2722<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.69s" fill="freeze"/></text>
+  <rect class="bar ref" x="275.8" y="137.8" width="25.7" height="188.2" rx="2"><animate attributeName="height" from="0" to="188.2" dur="0.65s" begin="0.14s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="137.8" dur="0.65s" begin="0.14s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="288.6" y="132.8" opacity="0">7778<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.74s" fill="freeze"/></text>
+  <rect class="bar eq" x="307.8" y="84.0" width="25.7" height="242.0" rx="2"><animate attributeName="height" from="0" to="242.0" dur="0.65s" begin="0.19s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="84.0" dur="0.65s" begin="0.19s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="320.6" y="79.0" opacity="0">10000<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.79s" fill="freeze"/></text>
+  <rect class="bar eq" x="339.8" y="84.0" width="25.7" height="242.0" rx="2"><animate attributeName="height" from="0" to="242.0" dur="0.65s" begin="0.24s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="84.0" dur="0.65s" begin="0.24s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="352.6" y="79.0" opacity="0">10000<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.84s" fill="freeze"/></text>
+  <path class="tie" d="M307.8 68 L307.8 62 L365.5 62 L365.5 68" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.49s" fill="freeze"/></path>
+  <text class="tielab" x="336.6" y="56" opacity="0">identical<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.59s" fill="freeze"/></text>
+  <text class="model" x="304.6" y="346">qwen3.5:4b</text>
+  <text class="params" x="304.6" y="361">4.7B</text>
+  <rect class="bar ref" x="408.1" y="195.6" width="25.7" height="130.4" rx="2"><animate attributeName="height" from="0" to="130.4" dur="0.65s" begin="0.18s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="195.6" dur="0.65s" begin="0.18s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="421.0" y="190.6" opacity="0">5389<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.78s" fill="freeze"/></text>
+  <rect class="bar ref" x="440.2" y="137.8" width="25.7" height="188.2" rx="2"><animate attributeName="height" from="0" to="188.2" dur="0.65s" begin="0.23s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="137.8" dur="0.65s" begin="0.23s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="453.0" y="132.8" opacity="0">7778<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.83s" fill="freeze"/></text>
+  <rect class="bar eq" x="472.2" y="84.0" width="25.7" height="242.0" rx="2"><animate attributeName="height" from="0" to="242.0" dur="0.65s" begin="0.28s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="84.0" dur="0.65s" begin="0.28s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="485.0" y="79.0" opacity="0">10000<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.88s" fill="freeze"/></text>
+  <rect class="bar eq" x="504.2" y="84.0" width="25.7" height="242.0" rx="2"><animate attributeName="height" from="0" to="242.0" dur="0.65s" begin="0.33s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="84.0" dur="0.65s" begin="0.33s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="517.0" y="79.0" opacity="0">10000<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.9299999999999999s" fill="freeze"/></text>
+  <path class="tie" d="M472.2 68 L472.2 62 L529.9 62 L529.9 68" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.58s" fill="freeze"/></path>
+  <text class="tielab" x="501.0" y="56" opacity="0">identical<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.68s" fill="freeze"/></text>
+  <text class="model" x="469.0" y="346">qwen3.5:9b</text>
+  <text class="params" x="469.0" y="361">9.7B</text>
+  <rect class="bar ref" x="572.5" y="199.6" width="25.7" height="126.4" rx="2"><animate attributeName="height" from="0" to="126.4" dur="0.65s" begin="0.27s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="199.6" dur="0.65s" begin="0.27s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="585.4" y="194.6" opacity="0">5222<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.87s" fill="freeze"/></text>
+  <rect class="bar ref" x="604.6" y="137.8" width="25.7" height="188.2" rx="2"><animate attributeName="height" from="0" to="188.2" dur="0.65s" begin="0.32s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="137.8" dur="0.65s" begin="0.32s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="617.4" y="132.8" opacity="0">7778<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.9199999999999999s" fill="freeze"/></text>
+  <rect class="bar eq" x="636.6" y="84.0" width="25.7" height="242.0" rx="2"><animate attributeName="height" from="0" to="242.0" dur="0.65s" begin="0.37s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="84.0" dur="0.65s" begin="0.37s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="649.4" y="79.0" opacity="0">10000<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.97s" fill="freeze"/></text>
+  <rect class="bar eq" x="668.6" y="84.0" width="25.7" height="242.0" rx="2"><animate attributeName="height" from="0" to="242.0" dur="0.65s" begin="0.42s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="84.0" dur="0.65s" begin="0.42s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="681.4" y="79.0" opacity="0">10000<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.02s" fill="freeze"/></text>
+  <path class="tie" d="M636.6 68 L636.6 62 L694.3 62 L694.3 68" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.67s" fill="freeze"/></path>
+  <text class="tielab" x="665.4" y="56" opacity="0">identical<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.77s" fill="freeze"/></text>
+  <text class="model" x="633.4" y="346">gemma4:12b-it-q4_K_M</text>
+  <text class="params" x="633.4" y="361">11.9B</text>
+  <rect class="bar ref" x="736.9" y="143.1" width="25.7" height="182.9" rx="2"><animate attributeName="height" from="0" to="182.9" dur="0.65s" begin="0.36s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="143.1" dur="0.65s" begin="0.36s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="749.8" y="138.1" opacity="0">7556<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.96s" fill="freeze"/></text>
+  <rect class="bar ref" x="769.0" y="137.8" width="25.7" height="188.2" rx="2"><animate attributeName="height" from="0" to="188.2" dur="0.65s" begin="0.41s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="137.8" dur="0.65s" begin="0.41s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="781.8" y="132.8" opacity="0">7778<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.01s" fill="freeze"/></text>
+  <rect class="bar eq" x="801.0" y="85.4" width="25.7" height="240.6" rx="2"><animate attributeName="height" from="0" to="240.6" dur="0.65s" begin="0.46s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="85.4" dur="0.65s" begin="0.46s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="813.8" y="80.4" opacity="0">9944<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.06s" fill="freeze"/></text>
+  <rect class="bar eq" x="833.0" y="85.4" width="25.7" height="240.6" rx="2"><animate attributeName="height" from="0" to="240.6" dur="0.65s" begin="0.51s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/><animate attributeName="y" from="326" to="85.4" dur="0.65s" begin="0.51s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></rect>
+  <text class="val" x="845.8" y="80.4" opacity="0">9944<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.1099999999999999s" fill="freeze"/></text>
+  <path class="tie" d="M801.0 68 L801.0 62 L858.7 62 L858.7 68" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.76s" fill="freeze"/></path>
+  <text class="tielab" x="829.8" y="56" opacity="0">identical<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.86s" fill="freeze"/></text>
+  <text class="model" x="797.8" y="346">qwen/qwen3.8-27b</text>
+  <text class="params" x="797.8" y="361">27B</text>
+    <rect class="bar ref" x="58" y="374" width="11" height="11" rx="2"/>
+  <text class="legend" x="75" y="384">no rules</text>
+  <rect class="bar ref" x="226" y="374" width="11" height="11" rx="2"/>
+  <text class="legend" x="243" y="384">always refuse</text>
+  <rect class="bar eq" x="394" y="374" width="11" height="11" rx="2"/>
+  <text class="legend" x="411" y="384">all rules on</text>
+  <rect class="bar eq" x="562" y="374" width="11" height="11" rx="2"/>
+  <text class="legend" x="579" y="384">derived</text>
+</svg>

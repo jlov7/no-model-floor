@@ -1,0 +1,1442 @@
+[
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-01",
+    "confidence_bps": 9800,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 0,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-01",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 1,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-01",
+    "confidence_bps": 9800,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 2,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-01",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 3,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-01",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 4,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-01",
+    "confidence_bps": 9800,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 5,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-01",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 6,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-01",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 7,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-02",
+    "confidence_bps": 9850,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 0,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-02",
+    "confidence_bps": 9800,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 1,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-02",
+    "confidence_bps": 9800,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 2,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-02",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 3,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-02",
+    "confidence_bps": 9800,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 4,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-02",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 5,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-02",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 6,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-02",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 7,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-03",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 0,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-03",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 1,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-03",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 2,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-03",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 3,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-03",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 4,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-03",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 5,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-03",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 6,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-03",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 7,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-04",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 0,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-04",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 1,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-04",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 2,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-04",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 3,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-04",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 4,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-04",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 5,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-04",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 6,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-04",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 7,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-05",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 0,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-05",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 1,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-05",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 2,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-05",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 3,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-05",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 4,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-05",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 5,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-05",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 6,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-05",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 7,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-06",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 0,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-06",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 1,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-06",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 2,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-06",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 3,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-06",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 4,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-06",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 5,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-06",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 6,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-06",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "raw": null,
+    "sample": 7,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-07",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 0,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-07",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 1,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-07",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 2,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-07",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 3,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-07",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 4,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-07",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 5,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-07",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 6,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-07",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 7,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-08",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 0,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-08",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 1,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-08",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 2,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-08",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 3,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-08",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 4,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-08",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 5,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-08",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 6,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-08",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 7,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-09",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 0,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-09",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 1,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-09",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 2,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-09",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 3,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-09",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 4,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-09",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 5,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-09",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 6,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-09",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 7,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-10",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 0,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-10",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 1,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-10",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 2,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-10",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 3,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-10",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 4,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-10",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 5,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-10",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 6,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-10",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 7,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-11",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 0,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-11",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 1,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-11",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 2,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-11",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 3,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-11",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 4,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-11",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 5,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-11",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 6,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-11",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 7,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-12",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 0,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-12",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 1,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-12",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 2,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-12",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 3,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-12",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 4,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-12",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 5,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-12",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 6,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-12",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "raw": null,
+    "sample": 7,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-13",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ASK",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 0,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-13",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ASK",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 1,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-13",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ASK",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 2,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-13",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ASK",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 3,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-13",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ASK",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 4,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-13",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ASK",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 5,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-13",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ASK",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 6,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-13",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ASK",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 7,
+    "severity": "LO"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-14",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ASK",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 0,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-14",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ASK",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 1,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-14",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ASK",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 2,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-14",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ASK",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 3,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-14",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ASK",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 4,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-14",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ASK",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 5,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-14",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ASK",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 6,
+    "severity": "HI"
+  },
+  {
+    "authority": "OK",
+    "cell_id": "fina-n-14",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ASK",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 7,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-15",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 0,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-15",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 1,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-15",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 2,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-15",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 3,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-15",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 4,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-15",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 5,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-15",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 6,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-15",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 7,
+    "severity": "LO"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-16",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 0,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-16",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 1,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-16",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 2,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-16",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 3,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-16",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 4,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-16",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 5,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-16",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 6,
+    "severity": "HI"
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "fina-n-16",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 7,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-17",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 0,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-17",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 1,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-17",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 2,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-17",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 3,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-17",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 4,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-17",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 5,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-17",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 6,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-17",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 7,
+    "severity": "LO"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-18",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 0,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-18",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 1,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-18",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 2,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-18",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 3,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-18",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 4,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-18",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 5,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-18",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 6,
+    "severity": "HI"
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "fina-n-18",
+    "error": "HTTPError: HTTP Error 400: Bad Request",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "raw": null,
+    "sample": 7,
+    "severity": "HI"
+  }
+]

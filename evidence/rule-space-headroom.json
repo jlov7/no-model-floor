@@ -1,0 +1,50 @@
+{
+  "annotation_oracle_diagnostic": {
+    "headroom_bps": 0,
+    "not_a_verdict": "label-derived firing signal; the family is zero by construction because a perfect evaluator makes all-rules-on perfect in every domain",
+    "null_zero_fraction": 1.0,
+    "permutation_p": 1.0
+  },
+  "benchmark": "Mind2Web-SC",
+  "best_shared_policy": "rules[license+country+member+minor18+vaccine+minor15]",
+  "control_space": "every subset of the benchmark's six published safety rules (block iff any selected rule fires), plus always-allow and always-block",
+  "disclosure": "Predicates use task-text keywords and user profile fields only. The dataset's own violation annotations are read solely to produce the validation counts beside this result; scoring them directly would make the rules label-derived, which is the defect external headroom analysis refuses elsewhere.",
+  "exceeds_chance_structure": false,
+  "headroom_bps": 111,
+  "items_driving_the_gap_net": 2,
+  "null_is_degenerate": false,
+  "null_zero_fraction": 0.422,
+  "permutation_p": 0.16691654172913542,
+  "portfolio_size": 66,
+  "predicate_validation_against_shipped_violations": {
+    "spurious_fires": 16,
+    "violations_missed": 28,
+    "violations_recovered": 72
+  },
+  "protocol_version": "rule-space-headroom-1.0",
+  "unit_label_mix": {
+    "Entertainment": {
+      "0": 31,
+      "1": 25
+    },
+    "Shopping": {
+      "0": 35,
+      "1": 30
+    },
+    "Travel": {
+      "0": 34,
+      "1": 45
+    }
+  },
+  "units": {
+    "Entertainment": 56,
+    "Shopping": 65,
+    "Travel": 79
+  },
+  "units_preferring_something_else": [
+    "Entertainment",
+    "Shopping",
+    "Travel"
+  ],
+  "verdict": "no structure distinguishable from chance"
+}

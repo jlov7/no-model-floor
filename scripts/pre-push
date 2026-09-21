@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Runs the full check suite before allowing a push.
+#
+# This is a fallback for when hosted CI is unavailable, and it is genuinely weaker: it runs on
+# whatever machine you happen to be on rather than a clean checkout, and `git push --no-verify`
+# skips it entirely. It catches drift; it does not prove reproducibility on a fresh clone.
+set -e
+repo="$(git rev-parse --show-toplevel)"
+printf 'Running scripts/ci.sh before push.\n'
+"$repo/scripts/ci.sh"

@@ -1,0 +1,398 @@
+{
+  "excluded_runs": [
+    {
+      "reason": "no factorial.json: the run did not finish",
+      "run": "F2-qwen3.8-27b"
+    }
+  ],
+  "joint_band": {
+    "band_bps": 2500,
+    "intervals": 36,
+    "method": "unstudentised simultaneous band over all 36 intervals: per replicate, the largest absolute deviation of any interval's estimate from its observed value; 95th percentile of that maximum across the same cell-clustered replicates the intervals use. Not studentised; each deviation is in its own statistic's units.",
+    "surviving": [
+      "gemma4:12b-it-q4_K_M/ask_rate/vocabulary",
+      "qwen3.8-27b (unsloth Q6_K_XL)/accuracy/vocabulary",
+      "qwen3.5:9b/accuracy/vocabulary",
+      "qwen3.5:9b/ask_rate/vocabulary"
+    ],
+    "surviving_count": 4
+  },
+  "models": {
+    "gemma4:12b-it-q4_K_M": {
+      "accuracy": {
+        "arm_finance-clean_bps": 7639,
+        "arm_finance-distractors_bps": 6667,
+        "arm_maintenance-clean_bps": 5000,
+        "arm_maintenance-distractors_bps": 5764,
+        "distractors": {
+          "ci_bps": [
+            -1146,
+            972
+          ],
+          "effect_bps": -104,
+          "excludes_zero": false
+        },
+        "interaction": {
+          "ci_bps": [
+            -208,
+            3750
+          ],
+          "effect_bps": 1736,
+          "excludes_zero": false
+        },
+        "vocabulary": {
+          "ci_bps": [
+            -4097,
+            417
+          ],
+          "effect_bps": -1771,
+          "excludes_zero": false
+        }
+      },
+      "ask_rate": {
+        "arm_finance-clean_bps": 833,
+        "arm_finance-distractors_bps": 2292,
+        "arm_maintenance-clean_bps": 5417,
+        "arm_maintenance-distractors_bps": 4792,
+        "distractors": {
+          "ci_bps": [
+            -556,
+            1354
+          ],
+          "effect_bps": 417,
+          "excludes_zero": false
+        },
+        "interaction": {
+          "ci_bps": [
+            -3889,
+            -556
+          ],
+          "effect_bps": -2083,
+          "excludes_zero": true
+        },
+        "vocabulary": {
+          "ci_bps": [
+            1736,
+            5451
+          ],
+          "effect_bps": 3542,
+          "excludes_zero": true
+        }
+      }
+    },
+    "qwen3.5:2b": {
+      "accuracy": {
+        "arm_finance-clean_bps": 5764,
+        "arm_finance-distractors_bps": 5208,
+        "arm_maintenance-clean_bps": 3819,
+        "arm_maintenance-distractors_bps": 3889,
+        "distractors": {
+          "ci_bps": [
+            -556,
+            69
+          ],
+          "effect_bps": -243,
+          "excludes_zero": false
+        },
+        "interaction": {
+          "ci_bps": [
+            139,
+            1111
+          ],
+          "effect_bps": 625,
+          "excludes_zero": true
+        },
+        "vocabulary": {
+          "ci_bps": [
+            -3160,
+            -104
+          ],
+          "effect_bps": -1632,
+          "excludes_zero": true
+        }
+      },
+      "ask_rate": {
+        "arm_finance-clean_bps": 2014,
+        "arm_finance-distractors_bps": 2292,
+        "arm_maintenance-clean_bps": 3125,
+        "arm_maintenance-distractors_bps": 3681,
+        "distractors": {
+          "ci_bps": [
+            35,
+            833
+          ],
+          "effect_bps": 417,
+          "excludes_zero": true
+        },
+        "interaction": {
+          "ci_bps": [
+            -278,
+            833
+          ],
+          "effect_bps": 278,
+          "excludes_zero": false
+        },
+        "vocabulary": {
+          "ci_bps": [
+            312,
+            2188
+          ],
+          "effect_bps": 1250,
+          "excludes_zero": true
+        }
+      }
+    },
+    "qwen3.5:4b": {
+      "accuracy": {
+        "arm_finance-clean_bps": 4236,
+        "arm_finance-distractors_bps": 3194,
+        "arm_maintenance-clean_bps": 2708,
+        "arm_maintenance-distractors_bps": 1806,
+        "distractors": {
+          "ci_bps": [
+            -1389,
+            -521
+          ],
+          "effect_bps": -972,
+          "excludes_zero": true
+        },
+        "interaction": {
+          "ci_bps": [
+            -1111,
+            1181
+          ],
+          "effect_bps": 139,
+          "excludes_zero": false
+        },
+        "vocabulary": {
+          "ci_bps": [
+            -2292,
+            -694
+          ],
+          "effect_bps": -1458,
+          "excludes_zero": true
+        }
+      },
+      "ask_rate": {
+        "arm_finance-clean_bps": 5903,
+        "arm_finance-distractors_bps": 6944,
+        "arm_maintenance-clean_bps": 7986,
+        "arm_maintenance-distractors_bps": 9097,
+        "distractors": {
+          "ci_bps": [
+            660,
+            1458
+          ],
+          "effect_bps": 1076,
+          "excludes_zero": true
+        },
+        "interaction": {
+          "ci_bps": [
+            -972,
+            1319
+          ],
+          "effect_bps": 69,
+          "excludes_zero": false
+        },
+        "vocabulary": {
+          "ci_bps": [
+            1007,
+            3333
+          ],
+          "effect_bps": 2118,
+          "excludes_zero": true
+        }
+      }
+    },
+    "qwen3.5:9b": {
+      "accuracy": {
+        "arm_finance-clean_bps": 5903,
+        "arm_finance-distractors_bps": 5972,
+        "arm_maintenance-clean_bps": 3403,
+        "arm_maintenance-distractors_bps": 3264,
+        "distractors": {
+          "ci_bps": [
+            -382,
+            347
+          ],
+          "effect_bps": -35,
+          "excludes_zero": false
+        },
+        "interaction": {
+          "ci_bps": [
+            -903,
+            417
+          ],
+          "effect_bps": -208,
+          "excludes_zero": false
+        },
+        "vocabulary": {
+          "ci_bps": [
+            -3924,
+            -1389
+          ],
+          "effect_bps": -2604,
+          "excludes_zero": true
+        }
+      },
+      "ask_rate": {
+        "arm_finance-clean_bps": 3403,
+        "arm_finance-distractors_bps": 3264,
+        "arm_maintenance-clean_bps": 7222,
+        "arm_maintenance-distractors_bps": 6111,
+        "distractors": {
+          "ci_bps": [
+            -1007,
+            -278
+          ],
+          "effect_bps": -625,
+          "excludes_zero": true
+        },
+        "interaction": {
+          "ci_bps": [
+            -1667,
+            -278
+          ],
+          "effect_bps": -972,
+          "excludes_zero": true
+        },
+        "vocabulary": {
+          "ci_bps": [
+            2014,
+            4722
+          ],
+          "effect_bps": 3333,
+          "excludes_zero": true
+        }
+      }
+    },
+    "qwen3.8-27b (unsloth Q6_K_XL)": {
+      "accuracy": {
+        "arm_finance-clean_bps": 7500,
+        "arm_finance-distractors_bps": 6875,
+        "arm_maintenance-clean_bps": 5000,
+        "arm_maintenance-distractors_bps": 3611,
+        "distractors": {
+          "ci_bps": [
+            -1562,
+            -486
+          ],
+          "effect_bps": -1007,
+          "excludes_zero": true
+        },
+        "interaction": {
+          "ci_bps": [
+            -1528,
+            69
+          ],
+          "effect_bps": -764,
+          "excludes_zero": false
+        },
+        "vocabulary": {
+          "ci_bps": [
+            -4271,
+            -1528
+          ],
+          "effect_bps": -2882,
+          "excludes_zero": true
+        }
+      },
+      "ask_rate": {
+        "arm_finance-clean_bps": 3333,
+        "arm_finance-distractors_bps": 4097,
+        "arm_maintenance-clean_bps": 5069,
+        "arm_maintenance-distractors_bps": 6597,
+        "distractors": {
+          "ci_bps": [
+            729,
+            1597
+          ],
+          "effect_bps": 1146,
+          "excludes_zero": true
+        },
+        "interaction": {
+          "ci_bps": [
+            69,
+            1389
+          ],
+          "effect_bps": 764,
+          "excludes_zero": true
+        },
+        "vocabulary": {
+          "ci_bps": [
+            694,
+            3576
+          ],
+          "effect_bps": 2118,
+          "excludes_zero": true
+        }
+      }
+    }
+  },
+  "pooled": {
+    "accuracy": {
+      "arm_finance-clean_bps": 6208,
+      "arm_finance-distractors_bps": 5583,
+      "arm_maintenance-clean_bps": 3986,
+      "arm_maintenance-distractors_bps": 3667,
+      "distractors": {
+        "ci_bps": [
+          -778,
+          -160
+        ],
+        "effect_bps": -472,
+        "excludes_zero": true
+      },
+      "interaction": {
+        "ci_bps": [
+          -306,
+          889
+        ],
+        "effect_bps": 306,
+        "excludes_zero": false
+      },
+      "vocabulary": {
+        "ci_bps": [
+          -2958,
+          -1181
+        ],
+        "effect_bps": -2069,
+        "excludes_zero": true
+      }
+    },
+    "ask_rate": {
+      "arm_finance-clean_bps": 3097,
+      "arm_finance-distractors_bps": 3778,
+      "arm_maintenance-clean_bps": 5764,
+      "arm_maintenance-distractors_bps": 6056,
+      "distractors": {
+        "ci_bps": [
+          285,
+          681
+        ],
+        "effect_bps": 486,
+        "excludes_zero": true
+      },
+      "interaction": {
+        "ci_bps": [
+          -944,
+          153
+        ],
+        "effect_bps": -389,
+        "excludes_zero": false
+      },
+      "vocabulary": {
+        "ci_bps": [
+          1618,
+          3396
+        ],
+        "effect_bps": 2472,
+        "excludes_zero": true
+      }
+    }
+  },
+  "preregistered": false,
+  "rounds": 10000,
+  "seed": 20260819,
+  "unit_of_analysis": "scenario cell"
+}

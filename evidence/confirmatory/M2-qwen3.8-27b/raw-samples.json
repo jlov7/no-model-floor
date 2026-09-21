@@ -1,0 +1,1262 @@
+[
+  {
+    "cell_id": "mc-001",
+    "confidence_bps": 9900,
+    "decision": "ABSTAIN",
+    "expected": "ACT",
+    "sample": 0
+  },
+  {
+    "cell_id": "mc-001",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ACT",
+    "sample": 1
+  },
+  {
+    "cell_id": "mc-001",
+    "confidence_bps": 9900,
+    "decision": "ABSTAIN",
+    "expected": "ACT",
+    "sample": 2
+  },
+  {
+    "cell_id": "mc-001",
+    "confidence_bps": 9800,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 3
+  },
+  {
+    "cell_id": "mc-001",
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ACT",
+    "sample": 4
+  },
+  {
+    "cell_id": "mc-001",
+    "confidence_bps": 9000,
+    "decision": "ASK",
+    "expected": "ACT",
+    "sample": 5
+  },
+  {
+    "cell_id": "mc-001",
+    "confidence_bps": 9800,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 6
+  },
+  {
+    "cell_id": "mc-001",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ACT",
+    "sample": 7
+  },
+  {
+    "cell_id": "mc-001",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ACT",
+    "sample": 8
+  },
+  {
+    "cell_id": "mc-001",
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ACT",
+    "sample": 9
+  },
+  {
+    "cell_id": "mc-002",
+    "confidence_bps": 9800,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 0
+  },
+  {
+    "cell_id": "mc-002",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 1
+  },
+  {
+    "cell_id": "mc-002",
+    "confidence_bps": 9800,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 2
+  },
+  {
+    "cell_id": "mc-002",
+    "confidence_bps": 9800,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 3
+  },
+  {
+    "cell_id": "mc-002",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 4
+  },
+  {
+    "cell_id": "mc-002",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ACT",
+    "sample": 5
+  },
+  {
+    "cell_id": "mc-002",
+    "confidence_bps": 9800,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 6
+  },
+  {
+    "cell_id": "mc-002",
+    "confidence_bps": 9900,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 7
+  },
+  {
+    "cell_id": "mc-002",
+    "confidence_bps": 9800,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 8
+  },
+  {
+    "cell_id": "mc-002",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 9
+  },
+  {
+    "cell_id": "mc-003",
+    "confidence_bps": 100,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 0
+  },
+  {
+    "cell_id": "mc-003",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 1
+  },
+  {
+    "cell_id": "mc-003",
+    "confidence_bps": 9900,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 2
+  },
+  {
+    "cell_id": "mc-003",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 3
+  },
+  {
+    "cell_id": "mc-003",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 4
+  },
+  {
+    "cell_id": "mc-003",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 5
+  },
+  {
+    "cell_id": "mc-003",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 6
+  },
+  {
+    "cell_id": "mc-003",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 7
+  },
+  {
+    "cell_id": "mc-003",
+    "confidence_bps": 10000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 8
+  },
+  {
+    "cell_id": "mc-003",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 9
+  },
+  {
+    "cell_id": "mc-004",
+    "confidence_bps": 100,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 0
+  },
+  {
+    "cell_id": "mc-004",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 1
+  },
+  {
+    "cell_id": "mc-004",
+    "confidence_bps": 9900,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 2
+  },
+  {
+    "cell_id": "mc-004",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 3
+  },
+  {
+    "cell_id": "mc-004",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 4
+  },
+  {
+    "cell_id": "mc-004",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 5
+  },
+  {
+    "cell_id": "mc-004",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 6
+  },
+  {
+    "cell_id": "mc-004",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 7
+  },
+  {
+    "cell_id": "mc-004",
+    "confidence_bps": 10000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 8
+  },
+  {
+    "cell_id": "mc-004",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 9
+  },
+  {
+    "cell_id": "mc-005",
+    "confidence_bps": 100,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 0
+  },
+  {
+    "cell_id": "mc-005",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 1
+  },
+  {
+    "cell_id": "mc-005",
+    "confidence_bps": 9000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 2
+  },
+  {
+    "cell_id": "mc-005",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 3
+  },
+  {
+    "cell_id": "mc-005",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 4
+  },
+  {
+    "cell_id": "mc-005",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 5
+  },
+  {
+    "cell_id": "mc-005",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 6
+  },
+  {
+    "cell_id": "mc-005",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 7
+  },
+  {
+    "cell_id": "mc-005",
+    "confidence_bps": 0,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 8
+  },
+  {
+    "cell_id": "mc-005",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 9
+  },
+  {
+    "cell_id": "mc-006",
+    "confidence_bps": 100,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 0
+  },
+  {
+    "cell_id": "mc-006",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 1
+  },
+  {
+    "cell_id": "mc-006",
+    "confidence_bps": 9900,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 2
+  },
+  {
+    "cell_id": "mc-006",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 3
+  },
+  {
+    "cell_id": "mc-006",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 4
+  },
+  {
+    "cell_id": "mc-006",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 5
+  },
+  {
+    "cell_id": "mc-006",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 6
+  },
+  {
+    "cell_id": "mc-006",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 7
+  },
+  {
+    "cell_id": "mc-006",
+    "confidence_bps": 10000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 8
+  },
+  {
+    "cell_id": "mc-006",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 9
+  },
+  {
+    "cell_id": "mc-007",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 0
+  },
+  {
+    "cell_id": "mc-007",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 1
+  },
+  {
+    "cell_id": "mc-007",
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 2
+  },
+  {
+    "cell_id": "mc-007",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 3
+  },
+  {
+    "cell_id": "mc-007",
+    "confidence_bps": 9900,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 4
+  },
+  {
+    "cell_id": "mc-007",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 5
+  },
+  {
+    "cell_id": "mc-007",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 6
+  },
+  {
+    "cell_id": "mc-007",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7
+  },
+  {
+    "cell_id": "mc-007",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 8
+  },
+  {
+    "cell_id": "mc-007",
+    "confidence_bps": 9900,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 9
+  },
+  {
+    "cell_id": "mc-008",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 0
+  },
+  {
+    "cell_id": "mc-008",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 1
+  },
+  {
+    "cell_id": "mc-008",
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 2
+  },
+  {
+    "cell_id": "mc-008",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 3
+  },
+  {
+    "cell_id": "mc-008",
+    "confidence_bps": 9900,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 4
+  },
+  {
+    "cell_id": "mc-008",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 5
+  },
+  {
+    "cell_id": "mc-008",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 6
+  },
+  {
+    "cell_id": "mc-008",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7
+  },
+  {
+    "cell_id": "mc-008",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 8
+  },
+  {
+    "cell_id": "mc-008",
+    "confidence_bps": 9900,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 9
+  },
+  {
+    "cell_id": "mc-009",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 0
+  },
+  {
+    "cell_id": "mc-009",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 1
+  },
+  {
+    "cell_id": "mc-009",
+    "confidence_bps": 9800,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 2
+  },
+  {
+    "cell_id": "mc-009",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 3
+  },
+  {
+    "cell_id": "mc-009",
+    "confidence_bps": 9900,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 4
+  },
+  {
+    "cell_id": "mc-009",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 5
+  },
+  {
+    "cell_id": "mc-009",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 6
+  },
+  {
+    "cell_id": "mc-009",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7
+  },
+  {
+    "cell_id": "mc-009",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 8
+  },
+  {
+    "cell_id": "mc-009",
+    "confidence_bps": 9900,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 9
+  },
+  {
+    "cell_id": "mc-010",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 0
+  },
+  {
+    "cell_id": "mc-010",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 1
+  },
+  {
+    "cell_id": "mc-010",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 2
+  },
+  {
+    "cell_id": "mc-010",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 3
+  },
+  {
+    "cell_id": "mc-010",
+    "confidence_bps": 9900,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 4
+  },
+  {
+    "cell_id": "mc-010",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 5
+  },
+  {
+    "cell_id": "mc-010",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 6
+  },
+  {
+    "cell_id": "mc-010",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7
+  },
+  {
+    "cell_id": "mc-010",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 8
+  },
+  {
+    "cell_id": "mc-010",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 9
+  },
+  {
+    "cell_id": "mc-011",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 0
+  },
+  {
+    "cell_id": "mc-011",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 1
+  },
+  {
+    "cell_id": "mc-011",
+    "confidence_bps": 9800,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 2
+  },
+  {
+    "cell_id": "mc-011",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 3
+  },
+  {
+    "cell_id": "mc-011",
+    "confidence_bps": 9900,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 4
+  },
+  {
+    "cell_id": "mc-011",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 5
+  },
+  {
+    "cell_id": "mc-011",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 6
+  },
+  {
+    "cell_id": "mc-011",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7
+  },
+  {
+    "cell_id": "mc-011",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 8
+  },
+  {
+    "cell_id": "mc-011",
+    "confidence_bps": 9900,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 9
+  },
+  {
+    "cell_id": "mc-012",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 0
+  },
+  {
+    "cell_id": "mc-012",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 1
+  },
+  {
+    "cell_id": "mc-012",
+    "confidence_bps": 9800,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 2
+  },
+  {
+    "cell_id": "mc-012",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 3
+  },
+  {
+    "cell_id": "mc-012",
+    "confidence_bps": 9900,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 4
+  },
+  {
+    "cell_id": "mc-012",
+    "confidence_bps": 9900,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 5
+  },
+  {
+    "cell_id": "mc-012",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 6
+  },
+  {
+    "cell_id": "mc-012",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7
+  },
+  {
+    "cell_id": "mc-012",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 8
+  },
+  {
+    "cell_id": "mc-012",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 9
+  },
+  {
+    "cell_id": "mc-013",
+    "confidence_bps": 0,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 0
+  },
+  {
+    "cell_id": "mc-013",
+    "confidence_bps": 10000,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 1
+  },
+  {
+    "cell_id": "mc-013",
+    "confidence_bps": 9000,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 2
+  },
+  {
+    "cell_id": "mc-013",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 3
+  },
+  {
+    "cell_id": "mc-013",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 4
+  },
+  {
+    "cell_id": "mc-013",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ASK",
+    "sample": 5
+  },
+  {
+    "cell_id": "mc-013",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ASK",
+    "sample": 6
+  },
+  {
+    "cell_id": "mc-013",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 7
+  },
+  {
+    "cell_id": "mc-013",
+    "confidence_bps": 0,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 8
+  },
+  {
+    "cell_id": "mc-013",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 9
+  },
+  {
+    "cell_id": "mc-014",
+    "confidence_bps": 100,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 0
+  },
+  {
+    "cell_id": "mc-014",
+    "confidence_bps": 10000,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 1
+  },
+  {
+    "cell_id": "mc-014",
+    "confidence_bps": 9900,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 2
+  },
+  {
+    "cell_id": "mc-014",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 3
+  },
+  {
+    "cell_id": "mc-014",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 4
+  },
+  {
+    "cell_id": "mc-014",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ASK",
+    "sample": 5
+  },
+  {
+    "cell_id": "mc-014",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 6
+  },
+  {
+    "cell_id": "mc-014",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 7
+  },
+  {
+    "cell_id": "mc-014",
+    "confidence_bps": 10000,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 8
+  },
+  {
+    "cell_id": "mc-014",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 9
+  },
+  {
+    "cell_id": "mc-015",
+    "confidence_bps": 100,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 0
+  },
+  {
+    "cell_id": "mc-015",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 1
+  },
+  {
+    "cell_id": "mc-015",
+    "confidence_bps": 9900,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 2
+  },
+  {
+    "cell_id": "mc-015",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 3
+  },
+  {
+    "cell_id": "mc-015",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 4
+  },
+  {
+    "cell_id": "mc-015",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 5
+  },
+  {
+    "cell_id": "mc-015",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 6
+  },
+  {
+    "cell_id": "mc-015",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 7
+  },
+  {
+    "cell_id": "mc-015",
+    "confidence_bps": 10000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 8
+  },
+  {
+    "cell_id": "mc-015",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 9
+  },
+  {
+    "cell_id": "mc-016",
+    "confidence_bps": 100,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 0
+  },
+  {
+    "cell_id": "mc-016",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 1
+  },
+  {
+    "cell_id": "mc-016",
+    "confidence_bps": 9900,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 2
+  },
+  {
+    "cell_id": "mc-016",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 3
+  },
+  {
+    "cell_id": "mc-016",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 4
+  },
+  {
+    "cell_id": "mc-016",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 5
+  },
+  {
+    "cell_id": "mc-016",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 6
+  },
+  {
+    "cell_id": "mc-016",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 7
+  },
+  {
+    "cell_id": "mc-016",
+    "confidence_bps": 10000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 8
+  },
+  {
+    "cell_id": "mc-016",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 9
+  },
+  {
+    "cell_id": "mc-017",
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 0
+  },
+  {
+    "cell_id": "mc-017",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 1
+  },
+  {
+    "cell_id": "mc-017",
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 2
+  },
+  {
+    "cell_id": "mc-017",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 3
+  },
+  {
+    "cell_id": "mc-017",
+    "confidence_bps": 9800,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 4
+  },
+  {
+    "cell_id": "mc-017",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 5
+  },
+  {
+    "cell_id": "mc-017",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 6
+  },
+  {
+    "cell_id": "mc-017",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7
+  },
+  {
+    "cell_id": "mc-017",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 8
+  },
+  {
+    "cell_id": "mc-017",
+    "confidence_bps": 9800,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 9
+  },
+  {
+    "cell_id": "mc-018",
+    "confidence_bps": 100,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 0
+  },
+  {
+    "cell_id": "mc-018",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 1
+  },
+  {
+    "cell_id": "mc-018",
+    "confidence_bps": 9900,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 2
+  },
+  {
+    "cell_id": "mc-018",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 3
+  },
+  {
+    "cell_id": "mc-018",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 4
+  },
+  {
+    "cell_id": "mc-018",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 5
+  },
+  {
+    "cell_id": "mc-018",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 6
+  },
+  {
+    "cell_id": "mc-018",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 7
+  },
+  {
+    "cell_id": "mc-018",
+    "confidence_bps": 10000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 8
+  },
+  {
+    "cell_id": "mc-018",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 9
+  }
+]

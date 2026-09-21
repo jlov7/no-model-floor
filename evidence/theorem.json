@@ -1,0 +1,40 @@
+{
+  "accuracy": {
+    "attains_ceiling_over_every_integer_floor": true,
+    "ceiling_check": {
+      "attains_ceiling_everywhere": true,
+      "covers_every_integer_floor": true,
+      "draws_checked": 1512,
+      "floor_behaviours_per_draw": "2, clamped to the admissible floor range 0..10000",
+      "shortfalls": []
+    },
+    "configurations_evaluated": 328,
+    "draw_space_size": 1512,
+    "holds_for_every_possible_model": true,
+    "universally_dominating": [
+      "invalid_authority+denied_approval+unknown_approval@0"
+    ],
+    "universally_dominating_count": 1
+  },
+  "dominating_under_both_metrics": [
+    "invalid_authority+denied_approval+unknown_approval@0"
+  ],
+  "risk_never_read_by_scoring_or_guards": true,
+  "utility": {
+    "attains_ceiling_over_every_integer_floor": true,
+    "ceiling_check": {
+      "attains_ceiling_everywhere": true,
+      "covers_every_integer_floor": true,
+      "draws_checked": 1512,
+      "floor_behaviours_per_draw": "2, clamped to the admissible floor range 0..10000",
+      "shortfalls": []
+    },
+    "configurations_evaluated": 328,
+    "draw_space_size": 1512,
+    "holds_for_every_possible_model": true,
+    "universally_dominating": [
+      "invalid_authority+denied_approval+unknown_approval@0"
+    ],
+    "universally_dominating_count": 1
+  }
+}

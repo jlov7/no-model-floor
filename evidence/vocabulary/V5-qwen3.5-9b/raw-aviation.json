@@ -1,0 +1,1298 @@
+[
+  {
+    "authority": "OK",
+    "cell_id": "avia-01",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 0
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-01",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 1
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-01",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 2
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-01",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 3
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-01",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 4
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-01",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 5
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-01",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 6
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-01",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 7
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-02",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 0
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-02",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 1
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-02",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 2
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-02",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 3
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-02",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 4
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-02",
+    "confidence_bps": 9600,
+    "decision": "ABSTAIN",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 5
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-02",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 6
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-02",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ACT",
+    "permission": "GRANT",
+    "sample": 7
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-03",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 0
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-03",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 1
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-03",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 2
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-03",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 3
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-03",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 4
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-03",
+    "confidence_bps": 9600,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 5
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-03",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 6
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-03",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 7
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-04",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 0
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-04",
+    "confidence_bps": 8500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 1
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-04",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 2
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-04",
+    "confidence_bps": 5000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 3
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-04",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 4
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-04",
+    "confidence_bps": 9600,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 5
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-04",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 6
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-04",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 7
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-05",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 0
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-05",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 1
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-05",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 2
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-05",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 3
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-05",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 4
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-05",
+    "confidence_bps": 9600,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 5
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-05",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 6
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-05",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 7
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-06",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 0
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-06",
+    "confidence_bps": 0,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 1
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-06",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 2
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-06",
+    "confidence_bps": 8500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 3
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-06",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 4
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-06",
+    "confidence_bps": 9600,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 5
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-06",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 6
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-06",
+    "confidence_bps": 9800,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "GRANT",
+    "sample": 7
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-07",
+    "confidence_bps": 8500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 0
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-07",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 1
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-07",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 2
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-07",
+    "confidence_bps": 9800,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 3
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-07",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 4
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-07",
+    "confidence_bps": 5000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 5
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-07",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 6
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-07",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 7
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-08",
+    "confidence_bps": 8500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 0
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-08",
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 1
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-08",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 2
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-08",
+    "confidence_bps": 9800,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 3
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-08",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 4
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-08",
+    "confidence_bps": 2500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 5
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-08",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 6
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-08",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 7
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-09",
+    "confidence_bps": 5000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 0
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-09",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 1
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-09",
+    "confidence_bps": 9200,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 2
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-09",
+    "confidence_bps": 9900,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 3
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-09",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 4
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-09",
+    "confidence_bps": 5000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 5
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-09",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 6
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-09",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 7
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-10",
+    "confidence_bps": 0,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 0
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-10",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 1
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-10",
+    "confidence_bps": 10000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 2
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-10",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 3
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-10",
+    "confidence_bps": 8500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 4
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-10",
+    "confidence_bps": 2500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 5
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-10",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 6
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-10",
+    "confidence_bps": 10000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 7
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-11",
+    "confidence_bps": 8500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 0
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-11",
+    "confidence_bps": 9800,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 1
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-11",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 2
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-11",
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 3
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-11",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 4
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-11",
+    "confidence_bps": 2500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 5
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-11",
+    "confidence_bps": 9800,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 6
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-11",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 7
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-12",
+    "confidence_bps": 5000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 0
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-12",
+    "confidence_bps": 9800,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 1
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-12",
+    "confidence_bps": 0,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 2
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-12",
+    "confidence_bps": 0,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 3
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-12",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 4
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-12",
+    "confidence_bps": 2500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 5
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-12",
+    "confidence_bps": 9800,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 6
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-12",
+    "confidence_bps": 0,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "REFUSE",
+    "sample": 7
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-13",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ASK",
+    "permission": "PEND",
+    "sample": 0
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-13",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ASK",
+    "permission": "PEND",
+    "sample": 1
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-13",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ASK",
+    "permission": "PEND",
+    "sample": 2
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-13",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ASK",
+    "permission": "PEND",
+    "sample": 3
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-13",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ASK",
+    "permission": "PEND",
+    "sample": 4
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-13",
+    "confidence_bps": 9900,
+    "decision": "ABSTAIN",
+    "expected": "ASK",
+    "permission": "PEND",
+    "sample": 5
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-13",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ASK",
+    "permission": "PEND",
+    "sample": 6
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-13",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ASK",
+    "permission": "PEND",
+    "sample": 7
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-14",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ASK",
+    "permission": "PEND",
+    "sample": 0
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-14",
+    "confidence_bps": 5000,
+    "decision": "ASK",
+    "expected": "ASK",
+    "permission": "PEND",
+    "sample": 1
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-14",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ASK",
+    "permission": "PEND",
+    "sample": 2
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-14",
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ASK",
+    "permission": "PEND",
+    "sample": 3
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-14",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ASK",
+    "permission": "PEND",
+    "sample": 4
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-14",
+    "confidence_bps": 9200,
+    "decision": "ABSTAIN",
+    "expected": "ASK",
+    "permission": "PEND",
+    "sample": 5
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-14",
+    "confidence_bps": 0,
+    "decision": "ASK",
+    "expected": "ASK",
+    "permission": "PEND",
+    "sample": 6
+  },
+  {
+    "authority": "OK",
+    "cell_id": "avia-14",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ASK",
+    "permission": "PEND",
+    "sample": 7
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-15",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 0
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-15",
+    "confidence_bps": 5000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 1
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-15",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 2
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-15",
+    "confidence_bps": 0,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 3
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-15",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 4
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-15",
+    "confidence_bps": 9200,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 5
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-15",
+    "confidence_bps": 9800,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 6
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-15",
+    "confidence_bps": 0,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 7
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-16",
+    "confidence_bps": 8000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 0
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-16",
+    "confidence_bps": 9800,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 1
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-16",
+    "confidence_bps": 9200,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 2
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-16",
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 3
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-16",
+    "confidence_bps": 0,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 4
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-16",
+    "confidence_bps": 7000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 5
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-16",
+    "confidence_bps": 9800,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 6
+  },
+  {
+    "authority": "STALE",
+    "cell_id": "avia-16",
+    "confidence_bps": 0,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 7
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-17",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 0
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-17",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 1
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-17",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 2
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-17",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 3
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-17",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 4
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-17",
+    "confidence_bps": 0,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 5
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-17",
+    "confidence_bps": 0,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 6
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-17",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 7
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-18",
+    "confidence_bps": 5000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 0
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-18",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 1
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-18",
+    "confidence_bps": 0,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 2
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-18",
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 3
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-18",
+    "confidence_bps": 0,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 4
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-18",
+    "confidence_bps": 9900,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 5
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-18",
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 6
+  },
+  {
+    "authority": "NONE",
+    "cell_id": "avia-18",
+    "confidence_bps": 0,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "permission": "PEND",
+    "sample": 7
+  }
+]

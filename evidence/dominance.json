@@ -1,0 +1,110 @@
+{
+  "confirmatory": {
+    "accuracy": {
+      "bootstrap_rounds": 300,
+      "dominance_survives_draw_bootstrap_fraction": 1.0,
+      "dominating_intersection_sample": [
+        "invalid_authority+denied_approval+unknown_approval@0",
+        "invalid_authority+denied_approval+unknown_approval@1000",
+        "invalid_authority+denied_approval+unknown_approval@250",
+        "invalid_authority+denied_approval+unknown_approval@500",
+        "invalid_authority+denied_approval+unknown_approval@750"
+      ],
+      "dominating_intersection_size": 5,
+      "headroom_is_zero_under_every_reweighting": true,
+      "max_headroom_bps_over_random_reweightings": 0.0,
+      "metric": "accuracy",
+      "per_model_dominating_count": {
+        "gemma4:12b-it-q4_K_M": 160,
+        "qwen/qwen3.8-27b": 39,
+        "qwen3.5:2b": 5,
+        "qwen3.5:4b": 80,
+        "qwen3.5:9b": 39
+      },
+      "reweighting_rounds": 2000,
+      "sensitivity_control_guards_off_headroom_bps": 66.67,
+      "sensitivity_control_passes": true,
+      "simplex_corners_tested": 18
+    },
+    "utility": {
+      "bootstrap_rounds": 300,
+      "dominance_survives_draw_bootstrap_fraction": 1.0,
+      "dominating_intersection_sample": [
+        "invalid_authority+denied_approval+unknown_approval@0",
+        "invalid_authority+denied_approval+unknown_approval@1000",
+        "invalid_authority+denied_approval+unknown_approval@250",
+        "invalid_authority+denied_approval+unknown_approval@500",
+        "invalid_authority+denied_approval+unknown_approval@750"
+      ],
+      "dominating_intersection_size": 5,
+      "headroom_is_zero_under_every_reweighting": true,
+      "max_headroom_bps_over_random_reweightings": 0.0,
+      "metric": "utility",
+      "per_model_dominating_count": {
+        "gemma4:12b-it-q4_K_M": 160,
+        "qwen/qwen3.8-27b": 39,
+        "qwen3.5:2b": 5,
+        "qwen3.5:4b": 80,
+        "qwen3.5:9b": 39
+      },
+      "reweighting_rounds": 2000,
+      "sensitivity_control_guards_off_headroom_bps": 133.33,
+      "sensitivity_control_passes": true,
+      "simplex_corners_tested": 18
+    }
+  },
+  "exploratory": {
+    "accuracy": {
+      "bootstrap_rounds": 300,
+      "dominance_survives_draw_bootstrap_fraction": 1.0,
+      "dominating_intersection_sample": [
+        "invalid_authority+denied_approval+unknown_approval@0",
+        "invalid_authority+denied_approval+unknown_approval@1000",
+        "invalid_authority+denied_approval+unknown_approval@1250",
+        "invalid_authority+denied_approval+unknown_approval@1500",
+        "invalid_authority+denied_approval+unknown_approval@1750"
+      ],
+      "dominating_intersection_size": 35,
+      "headroom_is_zero_under_every_reweighting": true,
+      "max_headroom_bps_over_random_reweightings": 0.0,
+      "metric": "accuracy",
+      "per_model_dominating_count": {
+        "gemma4:12b-it-q4_K_M": 86,
+        "qwen/qwen3.8-27b": 39,
+        "qwen3.5:2b": 39,
+        "qwen3.5:4b": 70,
+        "qwen3.5:9b": 39
+      },
+      "reweighting_rounds": 2000,
+      "sensitivity_control_guards_off_headroom_bps": 111.11,
+      "sensitivity_control_passes": true,
+      "simplex_corners_tested": 18
+    },
+    "utility": {
+      "bootstrap_rounds": 300,
+      "dominance_survives_draw_bootstrap_fraction": 1.0,
+      "dominating_intersection_sample": [
+        "invalid_authority+denied_approval+unknown_approval@0",
+        "invalid_authority+denied_approval+unknown_approval@1000",
+        "invalid_authority+denied_approval+unknown_approval@1250",
+        "invalid_authority+denied_approval+unknown_approval@1500",
+        "invalid_authority+denied_approval+unknown_approval@1750"
+      ],
+      "dominating_intersection_size": 35,
+      "headroom_is_zero_under_every_reweighting": true,
+      "max_headroom_bps_over_random_reweightings": 0.0,
+      "metric": "utility",
+      "per_model_dominating_count": {
+        "gemma4:12b-it-q4_K_M": 86,
+        "qwen/qwen3.8-27b": 39,
+        "qwen3.5:2b": 39,
+        "qwen3.5:4b": 70,
+        "qwen3.5:9b": 39
+      },
+      "reweighting_rounds": 2000,
+      "sensitivity_control_guards_off_headroom_bps": 111.11,
+      "sensitivity_control_passes": true,
+      "simplex_corners_tested": 18
+    }
+  }
+}

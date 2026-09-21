@@ -1,0 +1,116 @@
+{
+  "eicu_ac": {
+    "evaluation_items": 128,
+    "floor_policy": "majority class",
+    "full_set_cv_folds": 5,
+    "full_set_cv_seed": 20260819,
+    "full_set_majority_class": 0.5127,
+    "full_set_no_model_floor": 0.8449,
+    "full_set_no_model_floor_bootstrap": {
+      "ci": [
+        0.75,
+        0.8938
+      ],
+      "mean": 0.8261,
+      "method": "out-of-bag: refits majority and role x inferred q_tag each round on a bootstrap draw, scores on the items the draw left out, excludes the shipped-annotation policy from the max",
+      "rounds": 2000,
+      "seed": 20260819
+    },
+    "full_set_no_model_floor_policy": "role x inferred q_tag",
+    "full_set_note": "The published figures for this benchmark are scored on all 316 records, not the 128-item valid split above (their reported scores, e.g. 154/316 and 312/316, are only reachable on the full set), so `published_below_no_model_floor` and `published_below_floor_interval_lower_bound` are computed against full_set_no_model_floor below rather than against no_model_floor. full_set_role_x_shipped_q_tag_cv uses the shipped q_tag annotation, which would not exist at inference; it is reported for reference only and excluded from the max that sets full_set_no_model_floor.",
+    "full_set_records": 316,
+    "full_set_role_x_inferred_q_tag_cv": 0.8449,
+    "full_set_role_x_shipped_q_tag_cv": 0.8544,
+    "label_counts_train": {
+      "0": 71,
+      "1": 117
+    },
+    "label_counts_valid": {
+      "0": 83,
+      "1": 45
+    },
+    "majority_class_valid_split": 0.6484,
+    "no_model_floor": 0.6484,
+    "no_model_floor_ci": [
+      0.5625,
+      0.7257
+    ],
+    "point_comparison_overstates": [],
+    "published_below_floor_interval_lower_bound": [
+      "LLaMA-Guard3"
+    ],
+    "published_below_no_model_floor": [
+      "LLaMA-Guard3"
+    ],
+    "records": 316,
+    "role_x_shipped_template": 0.4531,
+    "role_x_template_inferred_from_text": 0.5859,
+    "train": 188,
+    "train_majority_applied_to_valid": 0.3516,
+    "valid": 128
+  },
+  "mind2web_paired_vs_reproduced_guardrail": {
+    "floor_correct_guard_wrong": 66,
+    "guard_correct_floor_wrong": 32,
+    "items": 200,
+    "mcnemar_exact_two_sided_p": 0.00077,
+    "note": "Best task-blind policy against the LLaMA-Guard3 run in evidence/guard-reproduction, scored on identical items."
+  },
+  "mind2web_sc": {
+    "allowed_despite_disqualifying_attribute": 94,
+    "always_allow": 0.5,
+    "always_block": 0.5,
+    "best_single_user_attribute": {
+      "accuracy": 0.615,
+      "attribute": "non_member"
+    },
+    "block_if_any_user_precondition": 0.53,
+    "blocked_with_no_disqualifying_attribute": 0,
+    "evaluation_items": 200,
+    "label_counts": {
+      "0": 100,
+      "1": 100
+    },
+    "majority_class": 0.5,
+    "no_model_floor": 0.705,
+    "no_model_floor_ci": [
+      0.6384,
+      0.7639
+    ],
+    "no_model_floor_cluster_bootstrap": {
+      "ci": [
+        0.6072,
+        0.7725
+      ],
+      "cluster_key": "annotation_id",
+      "clusters": 150,
+      "mean": 0.6899,
+      "rounds": 2000,
+      "seed": 20260819
+    },
+    "point_comparison_overstates": [],
+    "published_below_floor_interval_lower_bound": [
+      "LLaMA-Guard3"
+    ],
+    "published_below_no_model_floor": [
+      "LLaMA-Guard3"
+    ],
+    "records": 200,
+    "user_profile_lookup_crossvalidated": 0.705
+  },
+  "note": "Aggregate statistics only. The datasets themselves are not redistributed here.",
+  "published_label_prediction_accuracy": {
+    "eicu_ac": {
+      "AGrail (Claude-3.5)": 0.984,
+      "AGrail (GPT-4o)": 0.978,
+      "GuardAgent (GPT-4)": 0.987,
+      "LLaMA-Guard3": 0.487
+    },
+    "mind2web_sc": {
+      "AGrail (Claude-3.5)": 0.94,
+      "AGrail (GPT-4o)": 0.984,
+      "GuardAgent (GPT-4)": 0.9,
+      "LLaMA-Guard3": 0.56
+    }
+  }
+}

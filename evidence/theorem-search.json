@@ -1,0 +1,18 @@
+{
+  "conditions_sufficient_over_this_space": true,
+  "counterexample": null,
+  "counterexamples_found": 0,
+  "family_correctness_pairs_examined": 2046060,
+  "inputs": 4,
+  "max_controls_per_family": 3,
+  "outputs": [
+    "ACT",
+    "ASK",
+    "ABSTAIN"
+  ],
+  "pairs_satisfying_all_three_conditions": 25260,
+  "reachable_subset": [
+    "ASK",
+    "ABSTAIN"
+  ]
+}

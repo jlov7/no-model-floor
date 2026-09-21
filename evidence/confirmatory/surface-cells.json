@@ -1,0 +1,92 @@
+[
+  {
+    "cell_id": "mc-001",
+    "permission": "GRANTED",
+    "mandate": "CURRENT"
+  },
+  {
+    "cell_id": "mc-002",
+    "permission": "GRANTED",
+    "mandate": "CURRENT"
+  },
+  {
+    "cell_id": "mc-003",
+    "permission": "GRANTED",
+    "mandate": "LAPSED"
+  },
+  {
+    "cell_id": "mc-004",
+    "permission": "GRANTED",
+    "mandate": "LAPSED"
+  },
+  {
+    "cell_id": "mc-005",
+    "permission": "GRANTED",
+    "mandate": "ABSENT"
+  },
+  {
+    "cell_id": "mc-006",
+    "permission": "GRANTED",
+    "mandate": "ABSENT"
+  },
+  {
+    "cell_id": "mc-007",
+    "permission": "REFUSED",
+    "mandate": "CURRENT"
+  },
+  {
+    "cell_id": "mc-008",
+    "permission": "REFUSED",
+    "mandate": "CURRENT"
+  },
+  {
+    "cell_id": "mc-009",
+    "permission": "REFUSED",
+    "mandate": "LAPSED"
+  },
+  {
+    "cell_id": "mc-010",
+    "permission": "REFUSED",
+    "mandate": "LAPSED"
+  },
+  {
+    "cell_id": "mc-011",
+    "permission": "REFUSED",
+    "mandate": "ABSENT"
+  },
+  {
+    "cell_id": "mc-012",
+    "permission": "REFUSED",
+    "mandate": "ABSENT"
+  },
+  {
+    "cell_id": "mc-013",
+    "permission": "PENDING",
+    "mandate": "CURRENT"
+  },
+  {
+    "cell_id": "mc-014",
+    "permission": "PENDING",
+    "mandate": "CURRENT"
+  },
+  {
+    "cell_id": "mc-015",
+    "permission": "PENDING",
+    "mandate": "LAPSED"
+  },
+  {
+    "cell_id": "mc-016",
+    "permission": "PENDING",
+    "mandate": "LAPSED"
+  },
+  {
+    "cell_id": "mc-017",
+    "permission": "PENDING",
+    "mandate": "ABSENT"
+  },
+  {
+    "cell_id": "mc-018",
+    "permission": "PENDING",
+    "mandate": "ABSENT"
+  }
+]

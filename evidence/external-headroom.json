@@ -1,0 +1,359 @@
+{
+  "benchmarks": {
+    "EICU-AC": {
+      "averaging": "Units are weighted equally, not by size, so a small unit counts as much as a large one. The item-weighted figure is reported beside it because the two differ by several times where unit sizes are uneven.",
+      "best_shared_policy": "always allow",
+      "best_shared_score": 0.6395,
+      "dropped_units": {
+        "physician": 16
+      },
+      "exceeds_chance_structure": true,
+      "headroom_above_null_mean_bps": 396,
+      "headroom_bps": 397,
+      "headroom_ci_bps": null,
+      "headroom_item_weighted_bps": 446,
+      "items": 128,
+      "items_driving_the_gap": {
+        "best_shared_policy": "always allow",
+        "per_unit": {
+          "general administration": {
+            "items": 63,
+            "items_the_unit_best_gets_right_that_the_shared_best_does_not": 5,
+            "unit_best_policy": "template lookup"
+          },
+          "nursing": {
+            "items": 49,
+            "items_the_unit_best_gets_right_that_the_shared_best_does_not": 0,
+            "unit_best_policy": "always allow"
+          }
+        },
+        "total_items_driving_the_gap": 5
+      },
+      "label_dependence": {
+        "every_unit_is_single_label": false,
+        "fraction_of_items_in_single_label_units": 0.0,
+        "unit_determines_label": false,
+        "units": 3,
+        "units_with_a_single_label": []
+      },
+      "min_unit_size": 20,
+      "note_on_the_interval": "Nonnegative support does not force a confidence interval to include zero. Per-unit maximization creates selection bias; the nominal permutation p-value addresses association under exchangeability, not held-out adaptive benefit.",
+      "per_unit_best_policy": {
+        "general administration": "template lookup",
+        "nursing": "always allow"
+      },
+      "permutation_null_distinct_values": 6,
+      "permutation_null_is_degenerate": true,
+      "permutation_null_mean_bps": 1,
+      "permutation_null_note": "The sampled null is concentrated at zero. This does not by itself invalidate the nominal permutation p-value. Exchangeability, dependence, grouping, and policy-selection assumptions still require justification.",
+      "permutation_null_zero_fraction": 0.9915,
+      "permutation_p": 0.001,
+      "policies": [
+        "always allow",
+        "always block",
+        "global majority",
+        "template lookup"
+      ],
+      "selection_bias": "The per-unit maximum is selected and scored on the same items and is optimistically biased. The null mean is a reference under shuffled membership, not an unbiased estimate of selection bias or of deployable adaptive benefit.",
+      "sensitivity_to_min_unit_size": {
+        "10": {
+          "headroom_bps": 265,
+          "permutation_p": 0.0585,
+          "units": 3
+        },
+        "20": {
+          "headroom_bps": 397,
+          "permutation_p": 0.001,
+          "units": 2
+        }
+      },
+      "unit_field": "role",
+      "unit_sizes": {
+        "general administration": 63,
+        "nursing": 49
+      },
+      "units": 2,
+      "units_whose_best_differs_from_shared": [
+        "general administration"
+      ],
+      "virtual_best_score": 0.6791
+    },
+    "Mind2Web-SC": {
+      "averaging": "Units are weighted equally, not by size, so a small unit counts as much as a large one. The item-weighted figure is reported beside it because the two differ by several times where unit sizes are uneven.",
+      "best_shared_policy": "profile lookup",
+      "best_shared_score": 0.6737,
+      "dropped_units": {},
+      "exceeds_chance_structure": false,
+      "headroom_above_null_mean_bps": -13,
+      "headroom_bps": 0,
+      "headroom_ci_bps": null,
+      "headroom_item_weighted_bps": 0,
+      "items": 200,
+      "items_driving_the_gap": {
+        "best_shared_policy": "profile lookup",
+        "per_unit": {
+          "Entertainment": {
+            "items": 56,
+            "items_the_unit_best_gets_right_that_the_shared_best_does_not": 0,
+            "unit_best_policy": "profile lookup"
+          },
+          "Shopping": {
+            "items": 65,
+            "items_the_unit_best_gets_right_that_the_shared_best_does_not": 0,
+            "unit_best_policy": "profile lookup"
+          },
+          "Travel": {
+            "items": 79,
+            "items_the_unit_best_gets_right_that_the_shared_best_does_not": 0,
+            "unit_best_policy": "profile lookup"
+          }
+        },
+        "total_items_driving_the_gap": 0
+      },
+      "label_dependence": {
+        "every_unit_is_single_label": false,
+        "fraction_of_items_in_single_label_units": 0.0,
+        "unit_determines_label": false,
+        "units": 3,
+        "units_with_a_single_label": []
+      },
+      "min_unit_size": 20,
+      "note_on_the_interval": "Nonnegative support does not force a confidence interval to include zero. Per-unit maximization creates selection bias; the nominal permutation p-value addresses association under exchangeability, not held-out adaptive benefit.",
+      "per_unit_best_policy": {
+        "Entertainment": "profile lookup",
+        "Shopping": "profile lookup",
+        "Travel": "profile lookup"
+      },
+      "permutation_null_distinct_values": 23,
+      "permutation_null_is_degenerate": false,
+      "permutation_null_mean_bps": 13,
+      "permutation_null_note": "The p-value is a nominal comparison against shuffled partitions, conditional on exchangeability; it is not an effect-size estimate or proof of adaptive benefit.",
+      "permutation_null_zero_fraction": 0.895,
+      "permutation_p": 1.0,
+      "policies": [
+        "adult only",
+        "always allow",
+        "always block",
+        "global majority",
+        "profile lookup"
+      ],
+      "selection_bias": "The per-unit maximum is selected and scored on the same items and is optimistically biased. The null mean is a reference under shuffled membership, not an unbiased estimate of selection bias or of deployable adaptive benefit.",
+      "sensitivity_to_min_unit_size": {
+        "10": {
+          "headroom_bps": 0,
+          "permutation_p": 1.0,
+          "units": 3
+        },
+        "20": {
+          "headroom_bps": 0,
+          "permutation_p": 1.0,
+          "units": 3
+        }
+      },
+      "unit_field": "domain",
+      "unit_sizes": {
+        "Entertainment": 56,
+        "Shopping": 65,
+        "Travel": 79
+      },
+      "units": 3,
+      "units_whose_best_differs_from_shared": [],
+      "virtual_best_score": 0.6737
+    },
+    "R-Judge": {
+      "averaging": "Units are weighted equally, not by size, so a small unit counts as much as a large one. The item-weighted figure is reported beside it because the two differ by several times where unit sizes are uneven.",
+      "best_shared_policy": "always block",
+      "best_shared_score": 0.6706,
+      "dropped_units": {
+        "Application": 1,
+        "EmergencyDispatch": 3,
+        "app": 13,
+        "bank": 2,
+        "cloud security": 2,
+        "deepfake": 2,
+        "dropbox": 3,
+        "dropbox twitter": 1,
+        "etherenum gmail": 1,
+        "facebook": 1,
+        "github": 3,
+        "gmail": 2,
+        "health": 5,
+        "home": 15,
+        "mail": 1,
+        "message": 1,
+        "mobile phone": 15,
+        "os": 4,
+        "phone": 1,
+        "psychological": 1,
+        "security": 9,
+        "ship": 2,
+        "terminal mail": 1,
+        "todolist": 1,
+        "traffic": 3,
+        "twitter": 5,
+        "web search": 1,
+        "webshop": 5,
+        "wechat": 3,
+        "windows": 2
+      },
+      "exceeds_chance_structure": false,
+      "headroom_above_null_mean_bps": -146,
+      "headroom_bps": 113,
+      "headroom_ci_bps": null,
+      "headroom_item_weighted_bps": 303,
+      "items": 571,
+      "items_driving_the_gap": {
+        "best_shared_policy": "always block",
+        "per_unit": {
+          "": {
+            "items": 414,
+            "items_the_unit_best_gets_right_that_the_shared_best_does_not": 14,
+            "unit_best_policy": "always allow"
+          },
+          "programmer": {
+            "items": 25,
+            "items_the_unit_best_gets_right_that_the_shared_best_does_not": 0,
+            "unit_best_policy": "always block"
+          },
+          "web": {
+            "items": 23,
+            "items_the_unit_best_gets_right_that_the_shared_best_does_not": 0,
+            "unit_best_policy": "always block"
+          }
+        },
+        "total_items_driving_the_gap": 14
+      },
+      "label_dependence": {
+        "every_unit_is_single_label": false,
+        "fraction_of_items_in_single_label_units": 0.0403,
+        "unit_determines_label": true,
+        "units": 33,
+        "units_with_a_single_label": [
+          "Application",
+          "bank",
+          "deepfake",
+          "dropbox",
+          "dropbox twitter",
+          "etherenum gmail",
+          "facebook",
+          "github",
+          "mail",
+          "message",
+          "phone",
+          "psychological",
+          "ship",
+          "terminal mail",
+          "todolist",
+          "web search"
+        ]
+      },
+      "min_unit_size": 20,
+      "note_on_the_interval": "Nonnegative support does not force a confidence interval to include zero. Per-unit maximization creates selection bias; the nominal permutation p-value addresses association under exchangeability, not held-out adaptive benefit.",
+      "per_unit_best_policy": {
+        "": "always allow",
+        "programmer": "always block",
+        "web": "always block"
+      },
+      "permutation_null_distinct_values": 182,
+      "permutation_null_is_degenerate": false,
+      "permutation_null_mean_bps": 259,
+      "permutation_null_note": "The p-value is a nominal comparison against shuffled partitions, conditional on exchangeability; it is not an effect-size estimate or proof of adaptive benefit.",
+      "permutation_null_zero_fraction": 0.17,
+      "permutation_p": 0.7286,
+      "policies": [
+        "always allow",
+        "always block",
+        "attack type lookup",
+        "global majority"
+      ],
+      "selection_bias": "The per-unit maximum is selected and scored on the same items and is optimistically biased. The null mean is a reference under shuffled membership, not an unbiased estimate of selection bias or of deployable adaptive benefit.",
+      "sensitivity_to_min_unit_size": {
+        "10": {
+          "headroom_bps": 56,
+          "permutation_p": 0.9785,
+          "units": 6
+        },
+        "20": {
+          "headroom_bps": 113,
+          "permutation_p": 0.7286,
+          "units": 3
+        }
+      },
+      "unit_field": "scenario",
+      "unit_sizes": {
+        "": 414,
+        "programmer": 25,
+        "web": 23
+      },
+      "units": 3,
+      "units_whose_best_differs_from_shared": [
+        ""
+      ],
+      "virtual_best_score": 0.6819
+    }
+  },
+  "not_run": [
+    {
+      "benchmark": "BeaverTails",
+      "label_dependence": {
+        "every_unit_is_single_label": true,
+        "fraction_of_items_in_single_label_units": 1.0,
+        "unit_determines_label": true,
+        "units": 15,
+        "units_with_a_single_label": [
+          "animal_abuse",
+          "child_abuse",
+          "controversial_topics,politics",
+          "discrimination,stereotype,injustice",
+          "drug_abuse,weapons,banned_substance",
+          "financial_crime,property_crime,theft",
+          "hate_speech,offensive_language",
+          "misinformation_regarding_ethics,laws_and_safety",
+          "non_violent_unethical_behavior",
+          "none",
+          "privacy_violation",
+          "self_harm",
+          "sexually_explicit,adult_content",
+          "terrorism,organized_crime",
+          "violence,aiding_and_abetting,incitement"
+        ]
+      },
+      "label_derived_units": true,
+      "reason": "retained units contain a single class, so per-unit accuracy there is 1.0 by construction and any headroom measured is annotation redundancy rather than structure a method could exploit at inference time",
+      "single_label_units": [
+        "controversial_topics,politics",
+        "discrimination,stereotype,injustice",
+        "drug_abuse,weapons,banned_substance",
+        "financial_crime,property_crime,theft",
+        "hate_speech,offensive_language",
+        "misinformation_regarding_ethics,laws_and_safety",
+        "non_violent_unethical_behavior",
+        "none",
+        "privacy_violation",
+        "sexually_explicit,adult_content",
+        "violence,aiding_and_abetting,incitement"
+      ],
+      "unit_field": "harm"
+    },
+    {
+      "benchmark": "ToxicChat",
+      "label_dependence": {
+        "every_unit_is_single_label": false,
+        "fraction_of_items_in_single_label_units": 0.0173,
+        "unit_determines_label": true,
+        "units": 2,
+        "units_with_a_single_label": [
+          "1"
+        ]
+      },
+      "label_derived_units": true,
+      "reason": "retained units contain a single class, so per-unit accuracy there is 1.0 by construction and any headroom measured is annotation redundancy rather than structure a method could exploit at inference time",
+      "single_label_units": [
+        "1"
+      ],
+      "unit_field": "jailbreak"
+    }
+  ],
+  "rounds": 2000,
+  "seed": 20260819
+}

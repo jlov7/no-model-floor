@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "no-model-floor: checking whether a safety benchmark measures the model"
+message: "If you refer to this work, please cite it as below."
+type: software
+version: 0.1.0
+authors:
+  - family-names: Lovell
+    given-names: Jason
+abstract: >-
+  This software checks whether an adaptive safety benchmark measures the model or a
+  surrounding scaffold. It provides two diagnostics: replace the model with fixed
+  policies and re-score the complete system, then measure the gap between the best
+  shared control setting and settings selected per unit. In the included synthetic
+  study, a fixed policy scores full marks and the declared control family has zero
+  adaptation headroom under the stated metric conditions. Committed analyses also
+  report no-model floors for third-party classification benchmarks, but the external
+  corpora are not redistributed and those aggregate results require separate
+  reproduction and statistical review. The work does not establish held-out adaptive
+  benefit or a general result about safety benchmarks. The portable implementation in
+  floors.py has no runtime dependencies.
+keywords:
+  - agent safety
+  - evaluation methodology
+  - benchmark validity
+  - ablation
+  - local language models
+license: MIT

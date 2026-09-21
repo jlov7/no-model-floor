@@ -1,0 +1,678 @@
+{
+  "excluded_runs": [],
+  "models": [
+    "gemma4:12b-it-q4_K_M",
+    "qwen3.5:2b",
+    "qwen3.5:4b",
+    "qwen3.5:9b",
+    "qwen3.8-27b (unsloth Q6_K_XL)"
+  ],
+  "per_model_accuracy_bps": {
+    "gemma4:12b-it-q4_K_M": {
+      "aviation": 8889,
+      "clinical": 8889,
+      "finance": 7639,
+      "legal": 8889,
+      "logistics": 8819,
+      "maintenance": 5000,
+      "nonsense": 1111
+    },
+    "qwen3.5:2b": {
+      "aviation": 2986,
+      "clinical": 6528,
+      "finance": 5764,
+      "legal": 2153,
+      "logistics": 4226,
+      "maintenance": 3819,
+      "nonsense": 1944
+    },
+    "qwen3.5:4b": {
+      "aviation": 1667,
+      "clinical": 4653,
+      "finance": 4236,
+      "legal": 2361,
+      "logistics": 4167,
+      "maintenance": 2708,
+      "nonsense": 1458
+    },
+    "qwen3.5:9b": {
+      "aviation": 3125,
+      "clinical": 7708,
+      "finance": 5903,
+      "legal": 6667,
+      "logistics": 6042,
+      "maintenance": 3403,
+      "nonsense": 5694
+    },
+    "qwen3.8-27b (unsloth Q6_K_XL)": {
+      "aviation": 6875,
+      "clinical": 7917,
+      "finance": 7500,
+      "legal": 6875,
+      "logistics": 7500,
+      "maintenance": 5000,
+      "nonsense": 6944
+    }
+  },
+  "pooled": {
+    "accuracy": {
+      "finance_rank": 2,
+      "median_pair_gap_bps": 1450,
+      "nonsense_rank": 7,
+      "original_pair_gap_bps": 2222,
+      "original_pair_rank_95ci": [
+        3,
+        12
+      ],
+      "original_pair_rank_among_21": 6,
+      "pairs": {
+        "aviation->nonsense": {
+          "ci_bps": [
+            -2458,
+            -222
+          ],
+          "difference_bps": -1278,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -2972,
+            417
+          ]
+        },
+        "clinical->aviation": {
+          "ci_bps": [
+            -3264,
+            -1458
+          ],
+          "difference_bps": -2431,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": true,
+          "simultaneous_ci_bps": [
+            -4125,
+            -736
+          ]
+        },
+        "clinical->legal": {
+          "ci_bps": [
+            -2125,
+            -1375
+          ],
+          "difference_bps": -1750,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": true,
+          "simultaneous_ci_bps": [
+            -3444,
+            -56
+          ]
+        },
+        "clinical->logistics": {
+          "ci_bps": [
+            -2103,
+            103
+          ],
+          "difference_bps": -980,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -2675,
+            714
+          ]
+        },
+        "clinical->nonsense": {
+          "ci_bps": [
+            -4181,
+            -3222
+          ],
+          "difference_bps": -3708,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": true,
+          "simultaneous_ci_bps": [
+            -5403,
+            -2014
+          ]
+        },
+        "finance->aviation": {
+          "ci_bps": [
+            -2583,
+            -431
+          ],
+          "difference_bps": -1500,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -3194,
+            194
+          ]
+        },
+        "finance->clinical": {
+          "ci_bps": [
+            -403,
+            2361
+          ],
+          "difference_bps": 931,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -764,
+            2625
+          ]
+        },
+        "finance->legal": {
+          "ci_bps": [
+            -2139,
+            556
+          ],
+          "difference_bps": -819,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -2514,
+            875
+          ]
+        },
+        "finance->logistics": {
+          "ci_bps": [
+            -847,
+            803
+          ],
+          "difference_bps": -50,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -1744,
+            1645
+          ]
+        },
+        "finance->maintenance": {
+          "ci_bps": [
+            -3028,
+            -1389
+          ],
+          "difference_bps": -2222,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": true,
+          "simultaneous_ci_bps": [
+            -3917,
+            -528
+          ]
+        },
+        "finance->nonsense": {
+          "ci_bps": [
+            -4125,
+            -1403
+          ],
+          "difference_bps": -2778,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": true,
+          "simultaneous_ci_bps": [
+            -4472,
+            -1083
+          ]
+        },
+        "legal->aviation": {
+          "ci_bps": [
+            -1417,
+            153
+          ],
+          "difference_bps": -681,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -2375,
+            1014
+          ]
+        },
+        "legal->nonsense": {
+          "ci_bps": [
+            -2514,
+            -1347
+          ],
+          "difference_bps": -1958,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": true,
+          "simultaneous_ci_bps": [
+            -3653,
+            -264
+          ]
+        },
+        "logistics->aviation": {
+          "ci_bps": [
+            -2354,
+            -597
+          ],
+          "difference_bps": -1450,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -3145,
+            244
+          ]
+        },
+        "logistics->legal": {
+          "ci_bps": [
+            -1943,
+            480
+          ],
+          "difference_bps": -770,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -2464,
+            925
+          ]
+        },
+        "logistics->nonsense": {
+          "ci_bps": [
+            -3924,
+            -1528
+          ],
+          "difference_bps": -2728,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": true,
+          "simultaneous_ci_bps": [
+            -4422,
+            -1033
+          ]
+        },
+        "maintenance->aviation": {
+          "ci_bps": [
+            -569,
+            1819
+          ],
+          "difference_bps": 722,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -972,
+            2417
+          ]
+        },
+        "maintenance->clinical": {
+          "ci_bps": [
+            1722,
+            4514
+          ],
+          "difference_bps": 3153,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": true,
+          "simultaneous_ci_bps": [
+            1458,
+            4847
+          ]
+        },
+        "maintenance->legal": {
+          "ci_bps": [
+            -97,
+            2847
+          ],
+          "difference_bps": 1403,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -292,
+            3097
+          ]
+        },
+        "maintenance->logistics": {
+          "ci_bps": [
+            1424,
+            2899
+          ],
+          "difference_bps": 2172,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": true,
+          "simultaneous_ci_bps": [
+            478,
+            3867
+          ]
+        },
+        "maintenance->nonsense": {
+          "ci_bps": [
+            -1944,
+            778
+          ],
+          "difference_bps": -556,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -2250,
+            1139
+          ]
+        }
+      },
+      "pairs_whose_interval_excludes_zero": 12,
+      "pairs_whose_simultaneous_interval_excludes_zero": 9,
+      "per_vocabulary_bps": {
+        "aviation": 4708,
+        "clinical": 7139,
+        "finance": 6208,
+        "legal": 5389,
+        "logistics": 6158,
+        "maintenance": 3986,
+        "nonsense": 3431
+      },
+      "ranking_best_first": [
+        "clinical",
+        "finance",
+        "logistics",
+        "legal",
+        "aviation",
+        "maintenance",
+        "nonsense"
+      ],
+      "simultaneous_band_bps": 1694,
+      "spread_bps": 3708
+    },
+    "ask_rate": {
+      "finance_rank": 4,
+      "median_pair_gap_bps": 1007,
+      "nonsense_rank": 2,
+      "original_pair_gap_bps": 2667,
+      "original_pair_rank_95ci": [
+        1,
+        5
+      ],
+      "original_pair_rank_among_21": 3,
+      "pairs": {
+        "aviation->nonsense": {
+          "ci_bps": [
+            708,
+            1736
+          ],
+          "difference_bps": 1194,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -292,
+            2681
+          ]
+        },
+        "clinical->aviation": {
+          "ci_bps": [
+            -722,
+            972
+          ],
+          "difference_bps": 181,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -1306,
+            1667
+          ]
+        },
+        "clinical->legal": {
+          "ci_bps": [
+            -681,
+            417
+          ],
+          "difference_bps": -111,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -1597,
+            1375
+          ]
+        },
+        "clinical->logistics": {
+          "ci_bps": [
+            -332,
+            1140
+          ],
+          "difference_bps": 368,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -1118,
+            1854
+          ]
+        },
+        "clinical->nonsense": {
+          "ci_bps": [
+            736,
+            1931
+          ],
+          "difference_bps": 1375,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -111,
+            2861
+          ]
+        },
+        "finance->aviation": {
+          "ci_bps": [
+            -1375,
+            1236
+          ],
+          "difference_bps": 0,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -1486,
+            1486
+          ]
+        },
+        "finance->clinical": {
+          "ci_bps": [
+            -944,
+            583
+          ],
+          "difference_bps": -181,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -1667,
+            1306
+          ]
+        },
+        "finance->legal": {
+          "ci_bps": [
+            -1444,
+            819
+          ],
+          "difference_bps": -292,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -1778,
+            1194
+          ]
+        },
+        "finance->logistics": {
+          "ci_bps": [
+            -377,
+            736
+          ],
+          "difference_bps": 187,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -1299,
+            1673
+          ]
+        },
+        "finance->maintenance": {
+          "ci_bps": [
+            1764,
+            3611
+          ],
+          "difference_bps": 2667,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": true,
+          "simultaneous_ci_bps": [
+            1181,
+            4153
+          ]
+        },
+        "finance->nonsense": {
+          "ci_bps": [
+            -28,
+            2333
+          ],
+          "difference_bps": 1194,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -292,
+            2681
+          ]
+        },
+        "legal->aviation": {
+          "ci_bps": [
+            -333,
+            847
+          ],
+          "difference_bps": 292,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -1194,
+            1778
+          ]
+        },
+        "legal->nonsense": {
+          "ci_bps": [
+            1306,
+            1681
+          ],
+          "difference_bps": 1486,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": true,
+          "simultaneous_ci_bps": [
+            0,
+            2972
+          ]
+        },
+        "logistics->aviation": {
+          "ci_bps": [
+            -1373,
+            881
+          ],
+          "difference_bps": -187,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -1673,
+            1299
+          ]
+        },
+        "logistics->legal": {
+          "ci_bps": [
+            -1575,
+            562
+          ],
+          "difference_bps": -479,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -1965,
+            1007
+          ]
+        },
+        "logistics->nonsense": {
+          "ci_bps": [
+            -114,
+            2069
+          ],
+          "difference_bps": 1007,
+          "excludes_zero": false,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -479,
+            2493
+          ]
+        },
+        "maintenance->aviation": {
+          "ci_bps": [
+            -3792,
+            -1542
+          ],
+          "difference_bps": -2667,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": true,
+          "simultaneous_ci_bps": [
+            -4153,
+            -1181
+          ]
+        },
+        "maintenance->clinical": {
+          "ci_bps": [
+            -3861,
+            -1736
+          ],
+          "difference_bps": -2847,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": true,
+          "simultaneous_ci_bps": [
+            -4333,
+            -1361
+          ]
+        },
+        "maintenance->legal": {
+          "ci_bps": [
+            -4069,
+            -1708
+          ],
+          "difference_bps": -2958,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": true,
+          "simultaneous_ci_bps": [
+            -4444,
+            -1472
+          ]
+        },
+        "maintenance->logistics": {
+          "ci_bps": [
+            -3330,
+            -1668
+          ],
+          "difference_bps": -2479,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": true,
+          "simultaneous_ci_bps": [
+            -3965,
+            -993
+          ]
+        },
+        "maintenance->nonsense": {
+          "ci_bps": [
+            -2556,
+            -250
+          ],
+          "difference_bps": -1472,
+          "excludes_zero": true,
+          "excludes_zero_simultaneously": false,
+          "simultaneous_ci_bps": [
+            -2958,
+            14
+          ]
+        }
+      },
+      "pairs_whose_interval_excludes_zero": 9,
+      "pairs_whose_simultaneous_interval_excludes_zero": 6,
+      "per_vocabulary_bps": {
+        "aviation": 3097,
+        "clinical": 2917,
+        "finance": 3097,
+        "legal": 2806,
+        "logistics": 3285,
+        "maintenance": 5764,
+        "nonsense": 4292
+      },
+      "ranking_best_first": [
+        "maintenance",
+        "nonsense",
+        "logistics",
+        "finance",
+        "aviation",
+        "clinical",
+        "legal"
+      ],
+      "simultaneous_band_bps": 1486,
+      "spread_bps": 2958
+    }
+  },
+  "preregistered": false,
+  "rounds": 10000,
+  "seed": 20260819
+}

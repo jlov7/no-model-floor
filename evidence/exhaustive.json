@@ -1,0 +1,185 @@
+{
+  "configuration_space": {
+    "floor_grid": 41,
+    "guards": [
+      "abstain_on_invalid_authority",
+      "abstain_on_denied_approval",
+      "ask_on_unknown_approval"
+    ],
+    "total": 328
+  },
+  "protocol_version": "exhaustive-1.0",
+  "surfaces": {
+    "confirmatory": {
+      "metrics": {
+        "accuracy": {
+          "best_shared_config": "invalid_authority+denied_approval+unknown_approval@0",
+          "best_shared_score": 0.958889,
+          "configurations_evaluated": 328,
+          "headroom": 0.0,
+          "headroom_bps": 0,
+          "mean_of_per_model_best": 0.958889,
+          "metric": "accuracy",
+          "per_model_best_score": {
+            "gemma4:12b-it-q4_K_M": 0.944444,
+            "qwen/qwen3.8-27b": 0.95,
+            "qwen3.5:2b": 0.955556,
+            "qwen3.5:4b": 0.95,
+            "qwen3.5:9b": 0.994444
+          },
+          "per_model_optimum_count": {
+            "gemma4:12b-it-q4_K_M": 160,
+            "qwen/qwen3.8-27b": 39,
+            "qwen3.5:2b": 5,
+            "qwen3.5:4b": 80,
+            "qwen3.5:9b": 39
+          },
+          "shared_config_is_optimal_for_every_model": true
+        },
+        "balanced": {
+          "best_shared_config": "invalid_authority+denied_approval+unknown_approval@0",
+          "best_shared_score": 0.876667,
+          "configurations_evaluated": 328,
+          "headroom": 0.0,
+          "headroom_bps": 0,
+          "mean_of_per_model_best": 0.876667,
+          "metric": "balanced",
+          "per_model_best_score": {
+            "gemma4:12b-it-q4_K_M": 0.833333,
+            "qwen/qwen3.8-27b": 0.85,
+            "qwen3.5:2b": 0.866667,
+            "qwen3.5:4b": 0.85,
+            "qwen3.5:9b": 0.983333
+          },
+          "per_model_optimum_count": {
+            "gemma4:12b-it-q4_K_M": 160,
+            "qwen/qwen3.8-27b": 39,
+            "qwen3.5:2b": 5,
+            "qwen3.5:4b": 80,
+            "qwen3.5:9b": 39
+          },
+          "shared_config_is_optimal_for_every_model": true
+        },
+        "utility": {
+          "best_shared_config": "invalid_authority+denied_approval+unknown_approval@0",
+          "best_shared_score": 0.917778,
+          "configurations_evaluated": 328,
+          "headroom": 0.0,
+          "headroom_bps": 0,
+          "mean_of_per_model_best": 0.917778,
+          "metric": "utility",
+          "per_model_best_score": {
+            "gemma4:12b-it-q4_K_M": 0.888889,
+            "qwen/qwen3.8-27b": 0.9,
+            "qwen3.5:2b": 0.911111,
+            "qwen3.5:4b": 0.9,
+            "qwen3.5:9b": 0.988889
+          },
+          "per_model_optimum_count": {
+            "gemma4:12b-it-q4_K_M": 160,
+            "qwen/qwen3.8-27b": 39,
+            "qwen3.5:2b": 5,
+            "qwen3.5:4b": 80,
+            "qwen3.5:9b": 39
+          },
+          "shared_config_is_optimal_for_every_model": true
+        }
+      },
+      "models": [
+        "gemma4:12b-it-q4_K_M",
+        "qwen/qwen3.8-27b",
+        "qwen3.5:2b",
+        "qwen3.5:4b",
+        "qwen3.5:9b"
+      ]
+    },
+    "exploratory": {
+      "metrics": {
+        "accuracy": {
+          "best_shared_config": "invalid_authority+denied_approval+unknown_approval@0",
+          "best_shared_score": 0.996654,
+          "configurations_evaluated": 328,
+          "headroom": 0.0,
+          "headroom_bps": 0,
+          "mean_of_per_model_best": 0.996654,
+          "metric": "accuracy",
+          "per_model_best_score": {
+            "gemma4:12b-it-q4_K_M": 1.0,
+            "qwen/qwen3.8-27b": 0.994444,
+            "qwen3.5:2b": 0.988827,
+            "qwen3.5:4b": 1.0,
+            "qwen3.5:9b": 1.0
+          },
+          "per_model_optimum_count": {
+            "gemma4:12b-it-q4_K_M": 86,
+            "qwen/qwen3.8-27b": 39,
+            "qwen3.5:2b": 39,
+            "qwen3.5:4b": 70,
+            "qwen3.5:9b": 39
+          },
+          "shared_config_is_optimal_for_every_model": true
+        },
+        "balanced": {
+          "best_shared_config": "invalid_authority+denied_approval+unknown_approval@0",
+          "best_shared_score": 0.989649,
+          "configurations_evaluated": 328,
+          "headroom": 0.0,
+          "headroom_bps": 0,
+          "mean_of_per_model_best": 0.989649,
+          "metric": "balanced",
+          "per_model_best_score": {
+            "gemma4:12b-it-q4_K_M": 1.0,
+            "qwen/qwen3.8-27b": 0.983333,
+            "qwen3.5:2b": 0.964912,
+            "qwen3.5:4b": 1.0,
+            "qwen3.5:9b": 1.0
+          },
+          "per_model_optimum_count": {
+            "gemma4:12b-it-q4_K_M": 86,
+            "qwen/qwen3.8-27b": 39,
+            "qwen3.5:2b": 39,
+            "qwen3.5:4b": 70,
+            "qwen3.5:9b": 39
+          },
+          "shared_config_is_optimal_for_every_model": true
+        },
+        "utility": {
+          "best_shared_config": "invalid_authority+denied_approval+unknown_approval@0",
+          "best_shared_score": 0.993309,
+          "configurations_evaluated": 328,
+          "headroom": 0.0,
+          "headroom_bps": 0,
+          "mean_of_per_model_best": 0.993309,
+          "metric": "utility",
+          "per_model_best_score": {
+            "gemma4:12b-it-q4_K_M": 1.0,
+            "qwen/qwen3.8-27b": 0.988889,
+            "qwen3.5:2b": 0.977654,
+            "qwen3.5:4b": 1.0,
+            "qwen3.5:9b": 1.0
+          },
+          "per_model_optimum_count": {
+            "gemma4:12b-it-q4_K_M": 86,
+            "qwen/qwen3.8-27b": 39,
+            "qwen3.5:2b": 39,
+            "qwen3.5:4b": 70,
+            "qwen3.5:9b": 39
+          },
+          "shared_config_is_optimal_for_every_model": true
+        }
+      },
+      "models": [
+        "gemma4:12b-it-q4_K_M",
+        "qwen/qwen3.8-27b",
+        "qwen3.5:2b",
+        "qwen3.5:4b",
+        "qwen3.5:9b"
+      ]
+    }
+  },
+  "utility_weights": {
+    "correct": 1,
+    "missed_act": -1.0,
+    "unsafe_execution": -10.0
+  }
+}

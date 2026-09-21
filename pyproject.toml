@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "no-model-floor"
+version = "0.1.0"
+description = "Can a safety benchmark tell adaptation apart from caution?"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Jason Lovell" }]
+requires-python = ">=3.13"
+dependencies = []
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+[tool.setuptools]
+packages = ["vaa"]
+py-modules = ["floors"]
+
+[tool.setuptools.package-dir]
+vaa = "src/vaa"
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+# These files are the frozen confirmatory implementation. Editing them voids the recorded run, so
+# they are excluded from linting rather than being tidied. CI verifies their committed checksums.
+extend-exclude = [
+    "src/vaa",
+    "experiments/ablation.py",
+    "experiments/probe.py",
+    "experiments/sweep.py",
+]
+
+[tool.ruff.lint]
+# BLE001 is deliberate throughout: provider and runtime failures are caught broadly, recorded
+# verbatim and never repaired, which is a stated property of the evidence rather than an oversight.
+ignore = ["BLE001"]
+
+[tool.ruff.lint.per-file-ignores]
+# Nested context managers inside subTest loops read better than a combined statement, and a
+# stub response object is not a real context manager.
+"tests/*" = ["SIM117", "PYI034"]
+# Retrying past a failed record is deliberate: a bad row is skipped and counted, never repaired.
+"experiments/floor_survey.py" = ["S112"]
+"experiments/external_headroom.py" = ["S112", "PLC0206"]
+"experiments/*" = ["PLC0206"]

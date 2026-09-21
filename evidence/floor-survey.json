@@ -1,0 +1,69 @@
+{
+  "benchmarks": [
+    {
+      "always_positive_f1": 0.6904,
+      "benchmark": "R-Judge",
+      "floor_above_majority_points": 0.0,
+      "floor_policy": "majority class",
+      "items": 571,
+      "label_counts": {
+        "0": 270,
+        "1": 301
+      },
+      "majority_class": 0.5271,
+      "no_model_floor": 0.5271,
+      "note": "agent trajectory judged safe or unsafe; metadata is scenario and attack type",
+      "policies": {
+        "attack type only": 0.5114,
+        "majority class": 0.5271,
+        "scenario only": 0.4939,
+        "scenario x attack type": 0.4939
+      },
+      "positive_rate": 0.5271
+    },
+    {
+      "always_positive_f1": 0.7291,
+      "benchmark": "BeaverTails",
+      "floor_above_majority_points": 10.0,
+      "floor_policy": "prompt only, response deleted",
+      "items": 3021,
+      "label_counts": {
+        "0": 1288,
+        "1": 1733
+      },
+      "majority_class": 0.5737,
+      "no_model_floor": 0.674,
+      "note": "prompt and response labelled safe or unsafe; partial-input ablations",
+      "policies": {
+        "majority class": 0.5737,
+        "prompt only, response deleted": 0.674,
+        "response only, prompt deleted": 0.6644
+      },
+      "positive_rate": 0.5737
+    },
+    {
+      "always_positive_f1": 0.133,
+      "benchmark": "ToxicChat",
+      "floor_above_majority_points": 0.0,
+      "floor_policy": "majority class",
+      "items": 5083,
+      "label_counts": {
+        "0": 4721,
+        "1": 362
+      },
+      "majority_class": 0.9288,
+      "no_model_floor": 0.9288,
+      "note": "user turn labelled toxic; accuracy is the wrong metric here and the floor shows why",
+      "policies": {
+        "majority class": 0.9288,
+        "user input only": 0.9128
+      },
+      "positive_rate": 0.0712
+    }
+  ],
+  "folds": 5,
+  "nearest_neighbour_cap": 2500,
+  "not_surveyed": [],
+  "note": "Aggregate statistics only. No dataset is redistributed.",
+  "seed": 20260819
+}

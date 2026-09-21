@@ -1,0 +1,10 @@
+{
+  "arms_completed": 0,
+  "model": "qwen3.8-27b",
+  "note": "The four Ollama models completed normally, and this model was rerun on a different build whose results are in F2-qwen3.8-27b-unsloth. This directory is absent from evidence/factorial-effects.json because no arm completed, not because its results were unfavourable. The 16 usable draws it did produce are excluded from every published figure: the loader keys on factorial.json, which this run never wrote.",
+  "outcome": "excluded from the factorial analysis",
+  "raw_errors_preserved": true,
+  "reason": "The LM Studio engine began returning HTTP 400 'Compute error' partway through the first arm and never recovered. 128 of the 144 draws in finance-clean failed, leaving 16 usable, and the second arm produced none at all. A trivial one-word completion request failed the same way afterwards, so this is a runtime fault rather than the model refusing the task or violating the output contract.",
+  "runtime": "LM Studio, http://127.0.0.1:1234/v1",
+  "usable_draws": 16
+}

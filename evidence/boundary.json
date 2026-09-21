@@ -1,0 +1,27 @@
+{
+  "confirmatory": {
+    "best_shared_config": "invalid_authority@5250",
+    "dominating_config_is_shared_optimum": false,
+    "headroom_bps": 237.33,
+    "per_model_best_config": {
+      "gemma4:12b-it-q4_K_M": "invalid_authority@0",
+      "qwen/qwen3.8-27b": "invalid_authority+denied_approval@9750",
+      "qwen3.5:2b": "invalid_authority@5250",
+      "qwen3.5:4b": "invalid_authority+denied_approval@0",
+      "qwen3.5:9b": "invalid_authority@0"
+    }
+  },
+  "exploratory": {
+    "best_shared_config": "invalid_authority@10000",
+    "dominating_config_is_shared_optimum": false,
+    "headroom_bps": 33.52,
+    "per_model_best_config": {
+      "gemma4:12b-it-q4_K_M": "invalid_authority@9750",
+      "qwen/qwen3.8-27b": "invalid_authority@10000",
+      "qwen3.5:2b": "invalid_authority@0",
+      "qwen3.5:4b": "invalid_authority@10000",
+      "qwen3.5:9b": "invalid_authority@10000"
+    }
+  },
+  "metric": "negated absolute calibration gap, not monotone in per-cell accuracy"
+}

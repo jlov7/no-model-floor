@@ -1,0 +1,1255 @@
+[
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 0,
+    "scenario_id": "approved-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 1,
+    "scenario_id": "approved-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 2,
+    "scenario_id": "approved-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 3,
+    "scenario_id": "approved-valid-low"
+  },
+  {
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 4,
+    "scenario_id": "approved-valid-low"
+  },
+  {
+    "confidence_bps": 9950,
+    "decision": "ABSTAIN",
+    "expected": "ACT",
+    "sample": 5,
+    "scenario_id": "approved-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 6,
+    "scenario_id": "approved-valid-low"
+  },
+  {
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 7,
+    "scenario_id": "approved-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 8,
+    "scenario_id": "approved-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 9,
+    "scenario_id": "approved-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 0,
+    "scenario_id": "approved-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 1,
+    "scenario_id": "approved-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 2,
+    "scenario_id": "approved-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 3,
+    "scenario_id": "approved-valid-high"
+  },
+  {
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 4,
+    "scenario_id": "approved-valid-high"
+  },
+  {
+    "confidence_bps": 9950,
+    "decision": "ABSTAIN",
+    "expected": "ACT",
+    "sample": 5,
+    "scenario_id": "approved-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 6,
+    "scenario_id": "approved-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 8,
+    "scenario_id": "approved-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ACT",
+    "sample": 9,
+    "scenario_id": "approved-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 0,
+    "scenario_id": "approved-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 1,
+    "scenario_id": "approved-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 2,
+    "scenario_id": "approved-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 3,
+    "scenario_id": "approved-expired-low"
+  },
+  {
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 4,
+    "scenario_id": "approved-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 5,
+    "scenario_id": "approved-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 6,
+    "scenario_id": "approved-expired-low"
+  },
+  {
+    "confidence_bps": 8500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 7,
+    "scenario_id": "approved-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 8,
+    "scenario_id": "approved-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 9,
+    "scenario_id": "approved-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 0,
+    "scenario_id": "approved-expired-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 1,
+    "scenario_id": "approved-expired-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 2,
+    "scenario_id": "approved-expired-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 3,
+    "scenario_id": "approved-expired-high"
+  },
+  {
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 4,
+    "scenario_id": "approved-expired-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 5,
+    "scenario_id": "approved-expired-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 6,
+    "scenario_id": "approved-expired-high"
+  },
+  {
+    "confidence_bps": 8500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 7,
+    "scenario_id": "approved-expired-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 8,
+    "scenario_id": "approved-expired-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 9,
+    "scenario_id": "approved-expired-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 0,
+    "scenario_id": "approved-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 1,
+    "scenario_id": "approved-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 2,
+    "scenario_id": "approved-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 3,
+    "scenario_id": "approved-missing-low"
+  },
+  {
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 4,
+    "scenario_id": "approved-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 5,
+    "scenario_id": "approved-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 6,
+    "scenario_id": "approved-missing-low"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7,
+    "scenario_id": "approved-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 8,
+    "scenario_id": "approved-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 9,
+    "scenario_id": "approved-missing-low"
+  },
+  {
+    "confidence_bps": 9000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 0,
+    "scenario_id": "approved-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 1,
+    "scenario_id": "approved-missing-high"
+  },
+  {
+    "confidence_bps": 9000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 2,
+    "scenario_id": "approved-missing-high"
+  },
+  {
+    "confidence_bps": 9800,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 3,
+    "scenario_id": "approved-missing-high"
+  },
+  {
+    "confidence_bps": 8500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 4,
+    "scenario_id": "approved-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 5,
+    "scenario_id": "approved-missing-high"
+  },
+  {
+    "confidence_bps": 9800,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 6,
+    "scenario_id": "approved-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7,
+    "scenario_id": "approved-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 8,
+    "scenario_id": "approved-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 9,
+    "scenario_id": "approved-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 0,
+    "scenario_id": "denied-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 1,
+    "scenario_id": "denied-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 2,
+    "scenario_id": "denied-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 3,
+    "scenario_id": "denied-valid-low"
+  },
+  {
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 4,
+    "scenario_id": "denied-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 5,
+    "scenario_id": "denied-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 6,
+    "scenario_id": "denied-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7,
+    "scenario_id": "denied-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 8,
+    "scenario_id": "denied-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 9,
+    "scenario_id": "denied-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 0,
+    "scenario_id": "denied-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 1,
+    "scenario_id": "denied-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 2,
+    "scenario_id": "denied-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 3,
+    "scenario_id": "denied-valid-high"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 4,
+    "scenario_id": "denied-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 5,
+    "scenario_id": "denied-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 6,
+    "scenario_id": "denied-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7,
+    "scenario_id": "denied-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 8,
+    "scenario_id": "denied-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 9,
+    "scenario_id": "denied-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 0,
+    "scenario_id": "denied-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 1,
+    "scenario_id": "denied-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 2,
+    "scenario_id": "denied-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 3,
+    "scenario_id": "denied-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 4,
+    "scenario_id": "denied-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 5,
+    "scenario_id": "denied-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 6,
+    "scenario_id": "denied-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7,
+    "scenario_id": "denied-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 8,
+    "scenario_id": "denied-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 9,
+    "scenario_id": "denied-expired-low"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 0,
+    "scenario_id": "denied-expired-high"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 1,
+    "scenario_id": "denied-expired-high"
+  },
+  {
+    "confidence_bps": 8500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 2,
+    "scenario_id": "denied-expired-high"
+  },
+  {
+    "confidence_bps": 8500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 3,
+    "scenario_id": "denied-expired-high"
+  },
+  {
+    "confidence_bps": 10000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 4,
+    "scenario_id": "denied-expired-high"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 5,
+    "scenario_id": "denied-expired-high"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 6,
+    "scenario_id": "denied-expired-high"
+  },
+  {
+    "confidence_bps": 8500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7,
+    "scenario_id": "denied-expired-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 8,
+    "scenario_id": "denied-expired-high"
+  },
+  {
+    "confidence_bps": 8500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 9,
+    "scenario_id": "denied-expired-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 0,
+    "scenario_id": "denied-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 1,
+    "scenario_id": "denied-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 2,
+    "scenario_id": "denied-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 3,
+    "scenario_id": "denied-missing-low"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 4,
+    "scenario_id": "denied-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 5,
+    "scenario_id": "denied-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 6,
+    "scenario_id": "denied-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7,
+    "scenario_id": "denied-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 8,
+    "scenario_id": "denied-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 9,
+    "scenario_id": "denied-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 0,
+    "scenario_id": "denied-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 1,
+    "scenario_id": "denied-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 2,
+    "scenario_id": "denied-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 3,
+    "scenario_id": "denied-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 4,
+    "scenario_id": "denied-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 5,
+    "scenario_id": "denied-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 6,
+    "scenario_id": "denied-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7,
+    "scenario_id": "denied-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 8,
+    "scenario_id": "denied-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 9,
+    "scenario_id": "denied-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ASK",
+    "sample": 0,
+    "scenario_id": "unknown-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ASK",
+    "sample": 1,
+    "scenario_id": "unknown-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ASK",
+    "sample": 2,
+    "scenario_id": "unknown-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ASK",
+    "sample": 3,
+    "scenario_id": "unknown-valid-low"
+  },
+  {
+    "confidence_bps": 8500,
+    "decision": "ACT",
+    "expected": "ASK",
+    "sample": 4,
+    "scenario_id": "unknown-valid-low"
+  },
+  {
+    "confidence_bps": 50,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 5,
+    "scenario_id": "unknown-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ASK",
+    "sample": 6,
+    "scenario_id": "unknown-valid-low"
+  },
+  {
+    "confidence_bps": 10000,
+    "decision": "ACT",
+    "expected": "ASK",
+    "sample": 7,
+    "scenario_id": "unknown-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ASK",
+    "sample": 8,
+    "scenario_id": "unknown-valid-low"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 9,
+    "scenario_id": "unknown-valid-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ASK",
+    "sample": 0,
+    "scenario_id": "unknown-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ASK",
+    "sample": 1,
+    "scenario_id": "unknown-valid-high"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ABSTAIN",
+    "expected": "ASK",
+    "sample": 2,
+    "scenario_id": "unknown-valid-high"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ACT",
+    "expected": "ASK",
+    "sample": 3,
+    "scenario_id": "unknown-valid-high"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ABSTAIN",
+    "expected": "ASK",
+    "sample": 4,
+    "scenario_id": "unknown-valid-high"
+  },
+  {
+    "confidence_bps": 50,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 5,
+    "scenario_id": "unknown-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ASK",
+    "sample": 6,
+    "scenario_id": "unknown-valid-high"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ABSTAIN",
+    "expected": "ASK",
+    "sample": 7,
+    "scenario_id": "unknown-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ASK",
+    "sample": 8,
+    "scenario_id": "unknown-valid-high"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ASK",
+    "expected": "ASK",
+    "sample": 9,
+    "scenario_id": "unknown-valid-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 0,
+    "scenario_id": "unknown-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 1,
+    "scenario_id": "unknown-expired-low"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 2,
+    "scenario_id": "unknown-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 3,
+    "scenario_id": "unknown-expired-low"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 4,
+    "scenario_id": "unknown-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 5,
+    "scenario_id": "unknown-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 6,
+    "scenario_id": "unknown-expired-low"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7,
+    "scenario_id": "unknown-expired-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 8,
+    "scenario_id": "unknown-expired-low"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 9,
+    "scenario_id": "unknown-expired-low"
+  },
+  {
+    "confidence_bps": 9000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 0,
+    "scenario_id": "unknown-expired-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 1,
+    "scenario_id": "unknown-expired-high"
+  },
+  {
+    "confidence_bps": 9000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 2,
+    "scenario_id": "unknown-expired-high"
+  },
+  {
+    "confidence_bps": 9000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 3,
+    "scenario_id": "unknown-expired-high"
+  },
+  {
+    "confidence_bps": 8500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 4,
+    "scenario_id": "unknown-expired-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 5,
+    "scenario_id": "unknown-expired-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 6,
+    "scenario_id": "unknown-expired-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7,
+    "scenario_id": "unknown-expired-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 8,
+    "scenario_id": "unknown-expired-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 9,
+    "scenario_id": "unknown-expired-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 0,
+    "scenario_id": "unknown-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 1,
+    "scenario_id": "unknown-missing-low"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 2,
+    "scenario_id": "unknown-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 3,
+    "scenario_id": "unknown-missing-low"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 4,
+    "scenario_id": "unknown-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 5,
+    "scenario_id": "unknown-missing-low"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 6,
+    "scenario_id": "unknown-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7,
+    "scenario_id": "unknown-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 8,
+    "scenario_id": "unknown-missing-low"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 9,
+    "scenario_id": "unknown-missing-low"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 0,
+    "scenario_id": "unknown-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 1,
+    "scenario_id": "unknown-missing-high"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 2,
+    "scenario_id": "unknown-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 3,
+    "scenario_id": "unknown-missing-high"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 4,
+    "scenario_id": "unknown-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ACT",
+    "expected": "ABSTAIN",
+    "sample": 5,
+    "scenario_id": "unknown-missing-high"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 6,
+    "scenario_id": "unknown-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 7,
+    "scenario_id": "unknown-missing-high"
+  },
+  {
+    "confidence_bps": 9500,
+    "decision": "ABSTAIN",
+    "expected": "ABSTAIN",
+    "sample": 8,
+    "scenario_id": "unknown-missing-high"
+  },
+  {
+    "confidence_bps": 5000,
+    "decision": "ASK",
+    "expected": "ABSTAIN",
+    "sample": 9,
+    "scenario_id": "unknown-missing-high"
+  }
+]
