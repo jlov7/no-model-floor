@@ -39,7 +39,7 @@ the full source repository rather than in the Python package.
 
 ```mermaid
 %%{init: {"theme": "neutral", "flowchart": {"curve": "linear"}}}%%
-flowchart LR
+flowchart TD
     accTitle: Floor and headroom checks
     accDescr: Replace the model with fixed policies and score the full system. If a high score survives, report that floor. Otherwise compare the best shared control setting with the best settings chosen per unit. Any apparent per-unit advantage still needs held-out evaluation.
 

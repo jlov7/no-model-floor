@@ -34,7 +34,8 @@ class EnumerationIsComplete(unittest.TestCase):
         which is how the unstated domain assumption below came to be stated.
         """
         reps = confidence_classes()
-        signature = lambda c: tuple(c < f for f in GRID)
+        def signature(c):
+            return tuple(c < f for f in GRID)
         covered = {signature(r) for r in reps}
         rng = random.Random(20260819)
         for _ in range(20000):
@@ -49,10 +50,11 @@ class EnumerationIsComplete(unittest.TestCase):
         """
         from vaa.providers import ModelDecision, ProviderError
 
-        payload = lambda c: {
-            "decision": "ACT", "action_id": "apply-late-adjustment", "confidence_bps": c,
-            "question": None, "assumptions": [],
-        }
+        def payload(c):
+            return {
+                "decision": "ACT", "action_id": "apply-late-adjustment", "confidence_bps": c,
+                "question": None, "assumptions": [],
+            }
         # Control first: if a valid payload raises, the rejections below prove nothing.
         self.assertEqual(ModelDecision.from_mapping(payload(5000)).confidence_bps, 5000)
         # And match the message, so a rejection for some unrelated reason cannot pass as one

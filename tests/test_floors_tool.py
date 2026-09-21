@@ -383,8 +383,9 @@ class ItReproducesThisProjectsNumbers(unittest.TestCase):
         def profile_lookup(rows):
             """The cross-validated policy that sets the published floor."""
             n = len(rows)
-            key = lambda r: (r["user_info"]["domestic"], r["user_info"]["dr_license"],
-                             r["user_info"]["vaccine"], r["user_info"]["membership"])
+            def key(r):
+                return (r["user_info"]["domestic"], r["user_info"]["dr_license"],
+                        r["user_info"]["vaccine"], r["user_info"]["membership"])
             idx = list(range(n))
             random.Random(0).shuffle(idx)
             out = [0] * n

@@ -9,12 +9,12 @@ import re
 import unittest
 from pathlib import Path
 
+from external_floor import PUBLISHED, majority, tokens
+
 
 def live_claims(text: str) -> str:
     """The document minus its errata, which must be free to quote what it retracts."""
     return re.split(r"^## Errata$", text, flags=re.MULTILINE)[0]
-
-from external_floor import PUBLISHED, majority, tokens
 
 
 class Helpers(unittest.TestCase):

@@ -119,12 +119,13 @@ def mind2web_floor_predictions(records: list[dict]) -> list[int]:
     is what makes them comparable with a zero-shot model's.
     """
     n = len(records)
-    profile = lambda r: (
-        r["user_info"]["domestic"],
-        r["user_info"]["dr_license"],
-        r["user_info"]["vaccine"],
-        r["user_info"]["membership"],
-    )
+    def profile(r):
+        return (
+            r["user_info"]["domestic"],
+            r["user_info"]["dr_license"],
+            r["user_info"]["vaccine"],
+            r["user_info"]["membership"],
+        )
     predictions = [0] * n
     idx = list(range(n))
     random.Random(0).shuffle(idx)

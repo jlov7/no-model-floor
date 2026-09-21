@@ -116,7 +116,8 @@ class TheSurvivalCheckCanActuallyFail(unittest.TestCase):
 
         guards_off = [c for c in configurations() if not any(c[g] for g in GUARDS)]
         rng = random.Random(11)
-        borderline = lambda: [rng.choice([4900, 5100]) for _ in range(10)]
+        def borderline():
+            return [rng.choice([4900, 5100]) for _ in range(10)]
         cells = {
             "a": [{"approval": "APPROVED", "authority": "VALID", "decision": "ACT",
                    "confidence_bps": c} for c in borderline()],

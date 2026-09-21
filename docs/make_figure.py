@@ -262,16 +262,19 @@ def model_ablation_figure() -> None:
     observed = ex["observed_bps"]
     lo, hi = min(observed.values()), max(observed.values())
 
-    W, H = 900, 330
-    PAD_L, PAD_R = 60, 40
+    W, H = 480, 450
+    PAD_L, PAD_R = 32, 32
     span = W - PAD_L - PAD_R
-    x = lambda bps: PAD_L + span * bps / 10000
-    BAR_Y, BAR_H = 150, 54
+
+    def x(bps):
+        return PAD_L + span * bps / 10000
+
+    BAR_Y, BAR_H = 230, 52
 
     marks = [
-        (floor, "worst-case adversary", "plain", 82),
-        (subs["uniform_random"], "uniform noise", "plain", 102),
-        (subs["always_act"], "always ACT", "danger", 122),
+        (floor, "worst-case adversary", "plain", 116),
+        (subs["uniform_random"], "uniform noise", "plain", 148),
+        (subs["always_act"], "always ACT", "danger", 180),
     ]
     pins = []
     for bps, label, kind, label_y in marks:
@@ -291,9 +294,9 @@ def model_ablation_figure() -> None:
     )
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}"
-     role="img" aria-label="A single bar from 0 to 10000 basis points. Everything below 8889 is
-     scored no matter what the model does. Only the 1111 above it responds to the model at all, and
-     a model that always attempts the action scores the full 10000.">
+     role="img" aria-label="A single bar from 0 to 10000 basis points. Everything below {floor} is
+     scored no matter what the model does. Only the {10000 - floor} above it responds to the model at all, and
+     a model that always attempts the action scores the full {subs["always_act"]}.">
   <style>
     .bg {{ fill: #F4F6F7; }}
     .scaffold {{ fill: #9FB0B5; }}
@@ -303,13 +306,13 @@ def model_ablation_figure() -> None:
     .pin.danger {{ stroke: #A8322D; stroke-width: 2; }}
     .obs {{ fill: none; stroke: #14191C; stroke-width: 1.6; }}
     text {{ font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace; }}
-    .axis {{ font-size: 10px; fill: #526168; text-anchor: middle; }}
-    .pinlab {{ font-size: 10px; fill: #47555C; }}
+    .axis {{ font-size: 11px; fill: #526168; text-anchor: middle; }}
+    .pinlab {{ font-size: 12px; fill: #47555C; }}
     .pinlab.danger {{ fill: #A8322D; font-weight: 600; }}
-    .seg {{ font-size: 11px; fill: #14191C; text-anchor: middle; }}
-    .obslab {{ font-size: 10px; fill: #14191C; text-anchor: middle; }}
-    .title {{ font-size: 13px; fill: #14191C; font-weight: 600; }}
-    .sub {{ font-size: 11px; fill: #47555C; }}
+    .seg {{ font-size: 12px; fill: #14191C; text-anchor: middle; }}
+    .obslab {{ font-size: 12px; fill: #14191C; }}
+    .title {{ font-size: 15px; fill: #14191C; font-weight: 600; }}
+    .sub {{ font-size: 12px; fill: #47555C; }}
     @media (prefers-color-scheme: dark) {{
       .bg {{ fill: #0E1316; }}
       .scaffold {{ fill: #46565C; }}
@@ -326,25 +329,26 @@ def model_ablation_figure() -> None:
     }}
   </style>
   <rect class="bg" x="0" y="0" width="{W}" height="{H}"/>
-  <text class="title" x="{PAD_L}" y="28">A model that always attempts the action scores full marks</text>
-  <text class="sub" x="{PAD_L}" y="47">Guarded system, all controls on. Replacing the model with a fixed or random policy</text>
-  <text class="sub" x="{PAD_L}" y="62">and re-scoring shows how much of the result was ever about the model.</text>
+  <text class="title" x="{PAD_L}" y="28">A model that always attempts the action</text>
+  <text class="title" x="{PAD_L}" y="47">scores full marks</text>
+  <text class="sub" x="{PAD_L}" y="71">Guarded system, all controls on. Replacing the model</text>
+  <text class="sub" x="{PAD_L}" y="87">with a fixed or random policy and re-scoring shows how</text>
+  <text class="sub" x="{PAD_L}" y="103">much of the result was ever about the model.</text>
   {"".join(pins)}
   <rect class="scaffold" x="{x(0):.1f}" y="{BAR_Y}" width="{x(floor) - x(0):.1f}" height="{BAR_H}"/>
   <rect class="movable" x="{x(floor):.1f}" y="{BAR_Y}" width="{x(10000) - x(floor):.1f}"
         height="{BAR_H}"/>
-  <text class="seg" x="{(x(0) + x(floor)) / 2:.1f}" y="{BAR_Y + 32}">
-    scored no matter what the model does &#183; {floor} bps
+  <text class="seg" x="{(x(0) + x(floor)) / 2:.1f}" y="{BAR_Y + 24}">
+    scored no matter what the model does
   </text>
-  <rect class="obs" x="{x(lo):.1f}" y="{BAR_Y + BAR_H + 30}" width="{max(2, x(hi) - x(lo)):.1f}"
+  <text class="seg" x="{(x(0) + x(floor)) / 2:.1f}" y="{BAR_Y + 41}">{floor} bps</text>
+  <rect class="obs" x="{x(lo):.1f}" y="{BAR_Y + BAR_H + 42}" width="{max(2, x(hi) - x(lo)):.1f}"
         height="16" rx="3"/>
-  <text class="obslab" x="{x(10000):.1f}" y="{BAR_Y + BAR_H + 60}" style="text-anchor: end">
+  <text class="obslab" x="{PAD_L}" y="{BAR_Y + BAR_H + 83}">
     the five real models: {lo} to {hi}
   </text>
-  <text class="sub" x="{PAD_L}" y="{H - 16}">
-    Only {10000 - floor} bps of the 10000 responds to the model at all.
-    {ex["fraction_of_score_that_is_model_independent"] * 100:.1f}% of the score is the scaffold.
-  </text>
+  <text class="sub" x="{PAD_L}" y="{H - 35}">Only {10000 - floor} bps of the 10000 responds to the model at all.</text>
+  <text class="sub" x="{PAD_L}" y="{H - 17}">{ex["fraction_of_score_that_is_model_independent"] * 100:.1f}% of the score is the scaffold.</text>
   {ticks}
 </svg>
 '''
